@@ -7,7 +7,7 @@ const questionBank = [
     options: ["봬요", "뵈요"],
     correct: 0,
     principle: "'봬요'는 '뵈어'의 줄임말이므로 '봬요'가 올바른 맞춤법입니다.",
-    tip: "💡 꿀팁: '해'를 넣어 자연스러우면 '봬요'! ('해요' -> '봬요', '하요' -> X)"
+    tip: "💡 세종대왕 꿀팁: '해'를 넣어 자연스러우면 '봬요'! ('해요' -> '봬요', '하요' -> X)"
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const questionBank = [
     options: ["낫았으면", "낳았으면", "낮았으면"],
     correct: 0,
     principle: "병이나 상처가 고쳐지는 것은 '낫다(낫았으면)'입니다.",
-    tip: "💡 꿀팁: 병이 회복되는 건 '낫다', 아기를 출산하는 건 '낳다', 높이가 낮은 건 '낮다'!"
+    tip: "💡 세종대왕 꿀팁: 병이 회복되는 건 '낫다', 아기를 출산하는 건 '낳다', 높이가 낮은 건 '낮다'!"
   },
   {
     id: 3,
@@ -23,7 +23,7 @@ const questionBank = [
     options: ["어떡해", "어떻게"],
     correct: 0,
     principle: "'어떡해'는 '어떻게 해'가 줄어든 말로 문장 끝에 사용합니다.",
-    tip: "💡 꿀팁: 문장 끝에는 '어떡해!', 뒤에 행동이 올 때는 '어떻게 가요?'"
+    tip: "💡 세종대왕 꿀팁: 문장 끝에는 '어떡해!', 뒤에 행동이 올 때는 '어떻게 가요?'"
   },
   {
     id: 4,
@@ -31,7 +31,7 @@ const questionBank = [
     options: ["반드시", "반듯이"],
     correct: 0,
     principle: "'꼭/틀림없이'라는 뜻을 나타낼 때는 '반드시'가 맞습니다.",
-    tip: "💡 꿀팁: '꼭'의 뜻은 '반드시', '줄이나 몸을 똑바르게'는 '반듯이'!"
+    tip: "💡 세종대왕 꿀팁: '꼭'의 뜻은 '반드시', '줄이나 몸을 똑바르게'는 '반듯이'!"
   },
   {
     id: 5,
@@ -39,7 +39,7 @@ const questionBank = [
     options: ["금세", "금새"],
     correct: 0,
     principle: "'금세'는 '금시(今時)에'가 줄어든 말로 '금세'가 바른 표기입니다.",
-    tip: "💡 꿀팁: '금세'는 시간이 금방 갈 때! ('금새'는 물건의 가격을 뜻해요)"
+    tip: "💡 세종대왕 꿀팁: '금세'는 시간이 금방 갈 때! ('금새'는 물건의 가격을 뜻해요)"
   },
   {
     id: 6,
@@ -47,7 +47,7 @@ const questionBank = [
     options: ["무난하게", "문안하게"],
     correct: 0,
     principle: "'별다른 어려움이 없다'는 뜻은 '무난(無難)하다'입니다.",
-    tip: "💡 꿀팁: '무난하다' = 어려움이 없다! ('문안'은 어른께 드리는 안부 인사)"
+    tip: "💡 세종대왕 꿀팁: '무난하다' = 어려움이 없다! ('문안'은 어른께 드리는 안부 인사)"
   },
   {
     id: 7,
@@ -55,7 +55,7 @@ const questionBank = [
     options: ["손을 씻었다", "손을 닦았다"],
     correct: 0,
     principle: "나쁜 행동이나 부정적인 일을 끊는 것은 '손을 씻다'라는 관용 표기입니다.",
-    tip: "💡 꿀팁: 부정적인 일이나 나쁜 관계를 정리할 땐 '손을 씻다'!"
+    tip: "💡 세종대왕 꿀팁: 부정적인 일이나 나쁜 관계를 정리할 땐 '손을 씻다'!"
   },
   {
     id: 8,
@@ -63,7 +63,7 @@ const questionBank = [
     options: ["며칠", "몇일"],
     correct: 0,
     principle: "한글 맞춤법에서 '몇 일'이라는 표기는 존재하지 않으며, 항상 '며칠'로 적어야 합니다.",
-    tip: "💡 꿀팁: '몇일'이라는 단어는 세상에 없어요! 언제나 '며칠'이 정답!"
+    tip: "💡 세종대왕 꿀팁: '몇일'이라는 단어는 세상에 없어요! 언제나 '며칠'이 정답!"
   },
   {
     id: 9,
@@ -71,7 +71,7 @@ const questionBank = [
     options: ["안 돼", "안 되", "않 돼"],
     correct: 0,
     principle: "'돼'는 '되어'의 줄임말입니다. 문장 끝에는 '안 돼'로 표기합니다.",
-    tip: "💡 꿀팁: '해'를 넣어 '안 해'가 자연스러우면 '안 돼'가 맞습니다!"
+    tip: "💡 세종대왕 꿀팁: '해'를 넣어 '안 해'가 자연스러우면 '안 돼'가 맞습니다!"
   },
   {
     id: 10,
@@ -79,7 +79,7 @@ const questionBank = [
     options: ["설렌다", "설레인다"],
     correct: 0,
     principle: "기본형이 '설레다'이므로 '설렌다/설렘'이 바른 표기입니다.",
-    tip: "💡 꿀팁: '설레임'은 아이스크림 이름! 올바른 표준어는 '설렘/설렌다'!"
+    tip: "💡 세종대왕 꿀팁: '설레임'은 아이스크림 이름! 올바른 표준어는 '설렘/설렌다'!"
   },
   {
     id: 11,
@@ -87,7 +87,7 @@ const questionBank = [
     options: ["굳이", "구지"],
     correct: 0,
     principle: "발음은 [구지]로 나지만, 원형을 밝혀 '굳이'로 적어야 합니다.",
-    tip: "💡 꿀팁: 소리는 [구지]로 나지만 글씨는 '굳이'라고 적어요 (구개음화)."
+    tip: "💡 세종대왕 꿀팁: 소리는 [구지]로 나지만 글씨는 '굳이'라고 적어요 (구개음화)."
   },
   {
     id: 12,
@@ -95,7 +95,7 @@ const questionBank = [
     options: ["댓글", "대글"],
     correct: 0,
     principle: "답글을 의미하는 올바른 표준어 표기는 '댓글'입니다.",
-    tip: "💡 꿀팁: 사이시옷이 붙어 소리 나는 '댓글'이 올바른 단어입니다."
+    tip: "💡 세종대왕 꿀팁: 사이시옷이 붙어 소리 나는 '댓글'이 올바른 단어입니다."
   },
   {
     id: 13,
@@ -103,7 +103,7 @@ const questionBank = [
     options: ["희한한", "희안한"],
     correct: 0,
     principle: "드물고 기이하다는 뜻은 '희한(稀罕)하다'가 바른 표기입니다.",
-    tip: "💡 꿀팁: '희안하다'는 틀린 표기! '희한하다'가 올바른 단어입니다."
+    tip: "💡 세종대왕 꿀팁: '희안하다'는 틀린 표기! '희한하다'가 올바른 단어입니다."
   },
   {
     id: 14,
@@ -111,7 +111,7 @@ const questionBank = [
     options: ["않고", "안고"],
     correct: 0,
     principle: "'아니하고'의 줄임말은 '않고'입니다.",
-    tip: "💡 꿀팁: '아니하고'의 뜻은 '않고'! ('안고'는 품에 안는 것을 뜻해요)"
+    tip: "💡 세종대왕 꿀팁: '아니하고'의 뜻은 '않고'! ('안고'는 품에 안는 것을 뜻해요)"
   },
   {
     id: 15,
@@ -119,7 +119,7 @@ const questionBank = [
     options: ["부딪쳤다", "부딪혔다"],
     correct: 0,
     principle: "주체적으로 세게 부딪히는 행동을 강조할 때는 '부딪치다'를 사용합니다.",
-    tip: "💡 꿀팁: 내가 가서 세게 쾅 부딪친 건 '부딪치다', 부딪힘을 당한 건 '부딪히다'!"
+    tip: "💡 세종대왕 꿀팁: 내가 가서 세게 쾅 부딪친 건 '부딪치다', 부딪힘을 당한 건 '부딪히다'!"
   },
   {
     id: 16,
@@ -127,7 +127,7 @@ const questionBank = [
     options: ["쐬며", "쇠며"],
     correct: 0,
     principle: "바람이나 햇볕을 받는 것은 '쐬다'가 바른 표현입니다.",
-    tip: "💡 꿀팁: 바람이나 햇빛은 '쐬다'! (명절을 지낼 때는 '설을 쇠다')"
+    tip: "💡 세종대왕 꿀팁: 바람이나 햇빛은 '쐬다'! (명절을 지낼 때는 '설을 쇠다')"
   },
   {
     id: 17,
@@ -135,7 +135,7 @@ const questionBank = [
     options: ["맞혀보자", "맞춰보자"],
     correct: 0,
     principle: "퀴즈나 시험의 정답을 맞게 하는 것은 '맞히다'가 올바른 표현입니다.",
-    tip: "💡 꿀팁: 정답을 맞게 하는 건 '맞히다'! (두 개를 비교하거나 줄을 세우는 건 '맞추다')"
+    tip: "💡 세종대왕 꿀팁: 정답을 맞게 하는 건 '맞히다'! (두 개를 비교하거나 줄을 세우는 건 '맞추다')"
   },
   {
     id: 18,
@@ -143,7 +143,7 @@ const questionBank = [
     options: ["채점해", "체점해"],
     correct: 0,
     principle: "점수를 매기는 것은 '채점(採點)'이 올바른 단어입니다.",
-    tip: "💡 꿀팁: '체점'이 아니라 '채점'이 맞는 표기입니다."
+    tip: "💡 세종대왕 꿀팁: '체점'이 아니라 '채점'이 맞는 표기입니다."
   },
   {
     id: 19,
@@ -151,7 +151,7 @@ const questionBank = [
     options: ["곰곰이", "곰곰히"],
     correct: 0,
     principle: "부사 형성 접미사 중 '곰곰' 뒤에는 '이'가 붙어 '곰곰이'가 맞습니다.",
-    tip: "💡 꿀팁: 곰곰이, 더욱이, 생긋이는 '이'로 끝납니다!"
+    tip: "💡 세종대왕 꿀팁: 곰곰이, 더욱이, 생긋이는 '이'로 끝납니다!"
   },
   {
     id: 20,
@@ -159,7 +159,7 @@ const questionBank = [
     options: ["깨끗이", "깨끗히"],
     correct: 0,
     principle: "'ㅅ' 받침 뒤의 부사화 접미사는 '이'로 적으므로 '깨끗이'가 맞습니다.",
-    tip: "💡 꿀팁: 받침이 'ㅅ'으로 끝나면 대부분 '이'를 붙여요! (깨끗이, 느긋이)"
+    tip: "💡 세종대왕 꿀팁: 받침이 'ㅅ'으로 끝나면 대부분 '이'를 붙여요! (깨끗이, 느긋이)"
   },
   {
     id: 21,
@@ -167,7 +167,7 @@ const questionBank = [
     options: ["칭찬해", "층찬해"],
     correct: 0,
     principle: "좋은 점을 고쳐 올려 말하는 것은 '칭찬'입니다.",
-    tip: "💡 꿀팁: '층찬'은 오타! 올바른 단어는 '칭찬'입니다."
+    tip: "💡 세종대왕 꿀팁: '층찬'은 오타! 올바른 단어는 '칭찬'입니다."
   },
   {
     id: 22,
@@ -175,7 +175,7 @@ const questionBank = [
     options: ["반드시", "반듯이"],
     correct: 0,
     principle: "'틀림없이 꼭'의 뜻은 '반드시'가 맞습니다.",
-    tip: "💡 꿀팁: 꼭 해야 하는 일은 '반드시'!"
+    tip: "💡 세종대왕 꿀팁: 꼭 해야 하는 일은 '반드시'!"
   },
   {
     id: 23,
@@ -183,7 +183,7 @@ const questionBank = [
     options: ["문안 인사", "무난 인사"],
     correct: 0,
     principle: "웃어른께 안부를 여쭙는 인사는 '문안(問安) 인사'입니다.",
-    tip: "💡 꿀팁: 안부를 여쭈는 것은 '문안 인사', 까다롭지 않은 것은 '무난하다'!"
+    tip: "💡 세종대왕 꿀팁: 안부를 여쭈는 것은 '문안 인사', 까다롭지 않은 것은 '무난하다'!"
   },
   {
     id: 24,
@@ -191,7 +191,7 @@ const questionBank = [
     options: ["결제", "결재"],
     correct: 0,
     principle: "대금을 지불하고 정산하는 것은 '결제(決濟)'입니다.",
-    tip: "💡 꿀팁: 서류에 서명 승인받는 건 '결재', 돈 계산하는 건 '결제'!"
+    tip: "💡 세종대왕 꿀팁: 서류에 서명 승인받는 건 '결재', 돈 계산하는 건 '결제'!"
   },
   {
     id: 25,
@@ -199,7 +199,7 @@ const questionBank = [
     options: ["결재", "결제"],
     correct: 0,
     principle: "안건을 검토하여 승인받는 일은 '결재(決裁)'입니다.",
-    tip: "💡 꿀팁: 결재 서류의 '재'는 옷을 마름질하듯 승인한다는 뜻!"
+    tip: "💡 세종대왕 꿀팁: 결재 서류의 '재'는 옷을 마름질하듯 승인한다는 뜻!"
   },
   {
     id: 26,
@@ -207,7 +207,7 @@ const questionBank = [
     options: ["가리켰다", "가르쳤다"],
     correct: 0,
     principle: "방향이나 대상을 지목하는 것은 '가리키다'입니다.",
-    tip: "💡 꿀팁: 지식이나 원리를 알려주는 건 '가르치다', 손으로 지목하는 건 '가리키다'!"
+    tip: "💡 세종대왕 꿀팁: 지식이나 원리를 알려주는 건 '가르치다', 손으로 지목하는 건 '가리키다'!"
   },
   {
     id: 27,
@@ -215,7 +215,7 @@ const questionBank = [
     options: ["가르쳐 주셨다", "가리켜 주셨다"],
     correct: 0,
     principle: "지식이나 배움을 전해 주는 것은 '가르치다'가 바른 표현입니다.",
-    tip: "💡 꿀팁: 공부나 행동을 배우게 하는 건 '가르치다'!"
+    tip: "💡 세종대왕 꿀팁: 공부나 행동을 배우게 하는 건 '가르치다'!"
   },
   {
     id: 28,
@@ -223,7 +223,7 @@ const questionBank = [
     options: ["다르다", "틀리다"],
     correct: 0,
     principle: "서로 같지 않은 것은 '다르다', 셈이나 답이 맞지 않는 것은 '틀리다'입니다.",
-    tip: "💡 꿀팁: 같지 않은 건 '다르다'(Different), 오답인 건 '틀리다'(Wrong)!"
+    tip: "💡 세종대왕 꿀팁: 같지 않은 건 '다르다'(Different), 오답인 건 '틀리다'(Wrong)!"
   },
   {
     id: 29,
@@ -231,7 +231,7 @@ const questionBank = [
     options: ["틀렸다", "다르다"],
     correct: 0,
     principle: "계산이나 정답이 맞지 않고 오답인 경우 '틀리다'를 씁니다.",
-    tip: "💡 꿀팁: 정답이 아니면 '틀렸다'!"
+    tip: "💡 세종대왕 꿀팁: 정답이 아니면 '틀렸다'!"
   },
   {
     id: 30,
@@ -239,7 +239,7 @@ const questionBank = [
     options: ["죽기 살기로", "죽기살기로"],
     correct: 0,
     principle: "단어와 단어 사이는 띄어 쓰는 것이 원칙입니다.",
-    tip: "💡 꿀팁: 각 단어는 원칙적으로 띄어 씁니다."
+    tip: "💡 세종대왕 꿀팁: 각 단어는 원칙적으로 띄어 씁니다."
   },
   {
     id: 31,
@@ -247,7 +247,7 @@ const questionBank = [
     options: ["진심으로", "진심으론"],
     correct: 0,
     principle: "조사 '으로'가 붙은 '진심으로'가 바른 표현입니다.",
-    tip: "💡 꿀팁: 거짓 없는 마음을 나타낼 땐 '진심으로'!"
+    tip: "💡 세종대왕 꿀팁: 거짓 없는 마음을 나타낼 땐 '진심으로'!"
   },
   {
     id: 32,
@@ -255,7 +255,7 @@ const questionBank = [
     options: ["미리", "미리서"],
     correct: 0,
     principle: "어떤 일이 일어나기 전에 조치하는 부사는 '미리'입니다.",
-    tip: "💡 꿀팁: '미리서'는 사투리 표현, 표준어는 '미리'!"
+    tip: "💡 세종대왕 꿀팁: '미리서'는 사투리 표현, 표준어는 '미리'!"
   },
   {
     id: 33,
@@ -263,7 +263,7 @@ const questionBank = [
     options: ["정답게", "정댭게"],
     correct: 0,
     principle: "정이 넘치고 다정하다는 뜻은 '정답다'입니다.",
-    tip: "💡 꿀팁: '정댭게'는 오타! 올바른 표현은 '정답게'입니다."
+    tip: "💡 세종대왕 꿀팁: '정댭게'는 오타! 올바른 표현은 '정답게'입니다."
   },
   {
     id: 34,
@@ -271,7 +271,7 @@ const questionBank = [
     options: ["눈부시게", "눈부시게도"],
     correct: 0,
     principle: "빛이 강렬하여 시린 것은 '눈부시다'입니다.",
-    tip: "💡 꿀팁: 강한 빛을 나타낼 땐 '눈부시다'!"
+    tip: "💡 세종대왕 꿀팁: 강한 빛을 나타낼 땐 '눈부시다'!"
   },
   {
     id: 35,
@@ -279,7 +279,7 @@ const questionBank = [
     options: ["깔끔하게", "깔끔히"],
     correct: 0,
     principle: "깨끗하고 정돈된 상태는 '깔끔하다'입니다.",
-    tip: "💡 꿀팁: 형용사 '깔끔하다'의 부사형은 '깔끔하게' 또는 '깔끔히'가 모두 사용됩니다."
+    tip: "💡 세종대왕 꿀팁: 형용사 '깔끔하다'의 부사형은 '깔끔하게' 또는 '깔끔히'가 모두 사용됩니다."
   },
   {
     id: 36,
@@ -287,7 +287,7 @@ const questionBank = [
     options: ["기뻐했다", "기뻐햇다"],
     correct: 0,
     principle: "과거형 어미는 '았/었'을 써서 '기뻐했다'가 맞습니다.",
-    tip: "💡 꿀팁: 과거형에는 받침 'ㅆ'을 적어야 합니다!"
+    tip: "💡 세종대왕 꿀팁: 과거형에는 받침 'ㅆ'을 적어야 합니다!"
   },
   {
     id: 37,
@@ -295,7 +295,7 @@ const questionBank = [
     options: ["화사해진다", "화사해진답"],
     correct: 0,
     principle: "밝고 환하게 피어나는 상태는 '화사해지다'입니다.",
-    tip: "💡 꿀팁: 화사하고 화사해진다는 올바른 단어 표기입니다."
+    tip: "💡 세종대왕 꿀팁: 화사하고 화사해진다는 올바른 단어 표기입니다."
   },
   {
     id: 38,
@@ -303,7 +303,7 @@ const questionBank = [
     options: ["고맙다", "고맙아"],
     correct: 0,
     principle: "'ㅂ' 불규칙 활용으로 '고맙다' -> '고마워'로 활용합니다.",
-    tip: "💡 꿀팁: '고맙다'의 활용형은 '고마워'입니다."
+    tip: "💡 세종대왕 꿀팁: '고맙다'의 활용형은 '고마워'입니다."
   },
   {
     id: 39,
@@ -311,7 +311,7 @@ const questionBank = [
     options: ["가로등", "가로동"],
     correct: 0,
     principle: "길가에 세워 놓는 등은 '가로등(街路燈)'입니다.",
-    tip: "💡 꿀팁: '가로동'은 오타! 올바른 단어는 '가로등'입니다."
+    tip: "💡 세종대왕 꿀팁: '가로동'은 오타! 올바른 단어는 '가로등'입니다."
   },
   {
     id: 40,
@@ -319,7 +319,7 @@ const questionBank = [
     options: ["어서", "어서서"],
     correct: 0,
     principle: "지체 없이 즉시를 뜻하는 부사는 '어서'입니다.",
-    tip: "💡 꿀팁: '어서서'는 잘못된 형태, 표준어는 '어서'!"
+    tip: "💡 세종대왕 꿀팁: '어서서'는 잘못된 형태, 표준어는 '어서'!"
   },
   {
     id: 41,
@@ -327,7 +327,7 @@ const questionBank = [
     options: ["따라", "따라서"],
     correct: 0,
     principle: "어떤 기준이나 의사에 의거할 때는 '따라'를 사용합니다.",
-    tip: "💡 꿀팁: 의사를 조율할 땐 '~에 따라'!"
+    tip: "💡 세종대왕 꿀팁: 의사를 조율할 땐 '~에 따라'!"
   },
   {
     id: 42,
@@ -335,7 +335,7 @@ const questionBank = [
     options: ["깜짝", "깜짝이"],
     correct: 0,
     principle: "갑자기 일어난 일에 놀라는 모양은 부사 '깜짝'입니다.",
-    tip: "💡 꿀팁: '깜짝 놀라다'가 올바른 표현입니다."
+    tip: "💡 세종대왕 꿀팁: '깜짝 놀라다'가 올바른 표현입니다."
   },
   {
     id: 43,
@@ -343,7 +343,7 @@ const questionBank = [
     options: ["열심히", "열심이"],
     correct: 0,
     principle: "'하다'가 붙는 어원 중 '열심' 뒤에는 '히'가 붙어 '열심히'가 됩니다.",
-    tip: "💡 꿀팁: 열심히, 솔직히, 꾸준히는 '히'로 끝납니다!"
+    tip: "💡 세종대왕 꿀팁: 열심히, 솔직히, 꾸준히는 '히'로 끝납니다!"
   },
   {
     id: 44,
@@ -351,7 +351,7 @@ const questionBank = [
     options: ["솔직하게", "솔직이"],
     correct: 0,
     principle: "거짓이 없이 사실대로 밝히는 부사는 '솔직하게' 또는 '솔직히'입니다.",
-    tip: "💡 꿀팁: '솔직이'는 틀린 표기! '솔직히/솔직하게'가 맞습니다."
+    tip: "💡 세종대왕 꿀팁: '솔직이'는 틀린 표기! '솔직히/솔직하게'가 맞습니다."
   },
   {
     id: 45,
@@ -359,7 +359,7 @@ const questionBank = [
     options: ["깨끗하게", "깨끗이"],
     correct: 0,
     principle: "'ㅅ' 받침으로 끝난 단어 뒤의 부사화 접미사는 '이'가 표준입니다.",
-    tip: "💡 꿀팁: '깨끗이'가 바른 표준 부사 표기입니다."
+    tip: "💡 세종대왕 꿀팁: '깨끗이'가 바른 표준 부사 표기입니다."
   },
   {
     id: 46,
@@ -367,7 +367,7 @@ const questionBank = [
     options: ["일찍이", "일찍히"],
     correct: 0,
     principle: "부사 '일찍' 뒤에 강조 접미사가 붙을 때는 '일찍이'가 됩니다.",
-    tip: "💡 꿀팁: '일찍이'가 올바른 표기입니다."
+    tip: "💡 세종대왕 꿀팁: '일찍이'가 올바른 표기입니다."
   },
   {
     id: 47,
@@ -375,7 +375,7 @@ const questionBank = [
     options: ["희한하고", "희안하고"],
     correct: 0,
     principle: "드물고 신기함을 뜻하는 단어는 '희한하다'입니다.",
-    tip: "💡 꿀팁: '희안'이 아니라 '희한'이 맞습니다!"
+    tip: "💡 세종대왕 꿀팁: '희안'이 아니라 '희한'이 맞습니다!"
   },
   {
     id: 48,
@@ -383,7 +383,7 @@ const questionBank = [
     options: ["신나게", "신나이"],
     correct: 0,
     principle: "흥겹고 기분이 좋은 상태는 '신나다'입니다.",
-    tip: "💡 꿀팁: '신나게 놀다'가 올바른 표현입니다."
+    tip: "💡 세종대왕 꿀팁: '신나게 놀다'가 올바른 표현입니다."
   },
   {
     id: 49,
@@ -391,7 +391,7 @@ const questionBank = [
     options: ["차질 없이", "차질없이"],
     correct: 0,
     principle: "단어 '차질'과 '없이'는 띄어 쓰는 것이 원칙입니다.",
-    tip: "💡 꿀팁: '차질 없이'처럼 띄어 씁니다."
+    tip: "💡 세종대왕 꿀팁: '차질 없이'처럼 띄어 씁니다."
   },
   {
     id: 50,
@@ -399,7 +399,7 @@ const questionBank = [
     options: ["돌아보았다", "돌아보앗다"],
     correct: 0,
     principle: "과거 어미 '았/었'을 사용하여 '돌아보았다'가 맞습니다.",
-    tip: "💡 꿀팁: 과거형은 '았/었'을 사용합니다."
+    tip: "💡 세종대왕 꿀팁: 과거형은 '았/었'을 사용합니다."
   },
   {
     id: 51,
@@ -407,7 +407,7 @@ const questionBank = [
     options: ["발이", "손이"],
     correct: 0,
     principle: "아는 사람이 많고 활동 범위가 넓은 것을 '발이 넓다'라고 합니다.",
-    tip: "💡 꿀팁: 아는 친구가 많을 땐 '발이 넓다'!"
+    tip: "💡 세종대왕 꿀팁: 아는 친구가 많을 땐 '발이 넓다'!"
   },
   {
     id: 52,
@@ -415,7 +415,7 @@ const questionBank = [
     options: ["손이", "발이"],
     correct: 0,
     principle: "씀씀이가 크거나 넉넉하게 대접하는 것을 '손이 크다'라고 합니다.",
-    tip: "💡 꿀팁: 음식을 넉넉하게 많이 만들 땐 '손이 크다'!"
+    tip: "💡 세종대왕 꿀팁: 음식을 넉넉하게 많이 만들 땐 '손이 크다'!"
   },
   {
     id: 53,
@@ -423,7 +423,7 @@ const questionBank = [
     options: ["눈코", "입코"],
     correct: 0,
     principle: "정신없이 매우 바쁜 상태는 '눈코 뜰 새 없다'입니다.",
-    tip: "💡 꿀팁: 몹시 바쁠 땐 '눈코 뜰 새 없다'!"
+    tip: "💡 세종대왕 꿀팁: 몹시 바쁠 땐 '눈코 뜰 새 없다'!"
   },
   {
     id: 54,
@@ -431,7 +431,7 @@ const questionBank = [
     options: ["발을", "손을"],
     correct: 0,
     principle: "적극적으로 앞장서서 돕는 행동을 '발을 벗고 나서다'라고 합니다.",
-    tip: "💡 꿀팁: 적극적으로 도와줄 땐 '발을 벗고 나서다'!"
+    tip: "💡 세종대왕 꿀팁: 적극적으로 도와줄 땐 '발을 벗고 나서다'!"
   },
   {
     id: 55,
@@ -439,7 +439,7 @@ const questionBank = [
     options: ["입이", "귀가"],
     correct: 0,
     principle: "말을 조심하지 않고 쉽게 전하는 태도는 '입이 가볍다'입니다.",
-    tip: "💡 꿀팁: 비밀을 쉽게 말해버리면 '입이 가볍다'!"
+    tip: "💡 세종대왕 꿀팁: 비밀을 쉽게 말해버리면 '입이 가볍다'!"
   },
   {
     id: 56,
@@ -447,7 +447,7 @@ const questionBank = [
     options: ["손을", "발을"],
     correct: 0,
     principle: "서로 협력하거나 화해하는 것을 '손을 잡다'라고 합니다.",
-    tip: "💡 꿀팁: 서로 힘을 모으거나 화해할 땐 '손을 잡다'!"
+    tip: "💡 세종대왕 꿀팁: 서로 힘을 모으거나 화해할 땐 '손을 잡다'!"
   },
   {
     id: 57,
@@ -455,7 +455,7 @@ const questionBank = [
     options: ["가슴을", "머리를"],
     correct: 0,
     principle: "통탄하거나 깊이 후회하는 행동을 '가슴을 치다'라고 합니다.",
-    tip: "💡 꿀팁: 깊이 후회하거나 답답할 땐 '가슴을 치다'!"
+    tip: "💡 세종대왕 꿀팁: 깊이 후회하거나 답답할 땐 '가슴을 치다'!"
   },
   {
     id: 58,
@@ -463,7 +463,7 @@ const questionBank = [
     options: ["귓등", "귓속"],
     correct: 0,
     principle: "남의 말을 건성으로 흘려듣는 것을 '귓등으로 듣다'라고 합니다.",
-    tip: "💡 꿀팁: 건성으로 안 듣는 건 '귓등으로 듣다'!"
+    tip: "💡 세종대왕 꿀팁: 건성으로 안 듣는 건 '귓등으로 듣다'!"
   },
   {
     id: 59,
@@ -471,7 +471,7 @@ const questionBank = [
     options: ["쥐", "새"],
     correct: 0,
     principle: "매우 조용하고 적막한 상태는 '쥐 죽은 듯이'라고 합니다.",
-    tip: "💡 꿀팁: 쥐 죽은 듯 조용하다!"
+    tip: "💡 세종대왕 꿀팁: 쥐 죽은 듯 조용하다!"
   },
   {
     id: 60,
@@ -479,7 +479,7 @@ const questionBank = [
     options: ["가슴", "얼굴"],
     correct: 0,
     principle: "심장이 심하게 뛰고 놀라는 상황을 비유하는 표현입니다.",
-    tip: "💡 꿀팁: '가슴이 덜덜 떨리다'!"
+    tip: "💡 세종대왕 꿀팁: '가슴이 덜덜 떨리다'!"
   },
   {
     id: 61,
@@ -487,7 +487,7 @@ const questionBank = [
     options: ["바르게", "바루게"],
     correct: 0,
     principle: "삐뚤어지지 않고 바른 상태는 '바르다(바르게)'입니다.",
-    tip: "💡 꿀팁: '바루게'는 오타! 올바른 단어는 '바르게'입니다."
+    tip: "💡 세종대왕 꿀팁: '바루게'는 오타! 올바른 단어는 '바르게'입니다."
   },
   {
     id: 62,
@@ -495,7 +495,7 @@ const questionBank = [
     options: ["따뜻하게", "따뜻이"],
     correct: 0,
     principle: "온기가 있는 상태는 '따뜻하다(따뜻하게)'입니다.",
-    tip: "💡 꿀팁: '따뜻하게 껴입다'가 자연스러운 표현입니다."
+    tip: "💡 세종대왕 꿀팁: '따뜻하게 껴입다'가 자연스러운 표현입니다."
   },
   {
     id: 63,
@@ -503,7 +503,7 @@ const questionBank = [
     options: ["찔렀다", "찌렀다"],
     correct: 0,
     principle: "기본형 '찌르다'의 과거형은 'ㄹ' 받침이 살아나 '찔렀다'가 맞습니다.",
-    tip: "💡 꿀팁: '찌르다' -> '찔렀다'가 올바른 활용형입니다!"
+    tip: "💡 세종대왕 꿀팁: '찌르다' -> '찔렀다'가 올바른 활용형입니다!"
   },
   {
     id: 64,
@@ -511,7 +511,7 @@ const questionBank = [
     options: ["맞는다", "맞는답"],
     correct: 0,
     principle: "알맞거나 호환되는 것은 '맞다(맞는다)'가 올바릅니다.",
-    tip: "💡 꿀팁: 신발이나 옷이 꼭 어울릴 땐 '맞는다'!"
+    tip: "💡 세종대왕 꿀팁: 신발이나 옷이 꼭 어울릴 땐 '맞는다'!"
   },
   {
     id: 65,
@@ -519,7 +519,7 @@ const questionBank = [
     options: ["보람차게", "보람차이"],
     correct: 0,
     principle: "보람이 가득하다는 뜻은 '보람차다(보람차게)'입니다.",
-    tip: "💡 꿀팁: '보람차게 보내다'가 올바른 표현입니다."
+    tip: "💡 세종대왕 꿀팁: '보람차게 보내다'가 올바른 표현입니다."
   },
   {
     id: 66,
@@ -527,7 +527,7 @@ const questionBank = [
     options: ["나란히", "나란이"],
     correct: 0,
     principle: "'나란하다'에서 부사화 접미사 '히'가 붙어 '나란히'가 맞습니다.",
-    tip: "💡 꿀팁: 나란히, 솔직히, 나란히가 바른 표기입니다."
+    tip: "💡 세종대왕 꿀팁: 나란히, 솔직히, 나란히가 바른 표기입니다."
   },
   {
     id: 67,
@@ -535,7 +535,7 @@ const questionBank = [
     options: ["지극하다", "지극히"],
     correct: 0,
     principle: "지극정성이나 정성이 넘치는 상태는 '지극하다'입니다.",
-    tip: "💡 꿀팁: 정성이 가득한 모습은 '지극하다'!"
+    tip: "💡 세종대왕 꿀팁: 정성이 가득한 모습은 '지극하다'!"
   },
   {
     id: 68,
@@ -543,7 +543,7 @@ const questionBank = [
     options: ["친절하게", "친절히"],
     correct: 0,
     principle: "'친절하다'의 부사형은 '친절하게' 또는 '친절히' 둘 다 올바릅니다.",
-    tip: "💡 꿀팁: '친절하게'가 가장 자연스러운 표현입니다."
+    tip: "💡 세종대왕 꿀팁: '친절하게'가 가장 자연스러운 표현입니다."
   },
   {
     id: 69,
@@ -551,7 +551,7 @@ const questionBank = [
     options: ["곧바로", "곧바로서"],
     correct: 0,
     principle: "지체 없이 바로를 뜻하는 부사는 '곧바로'입니다.",
-    tip: "💡 꿀팁: '곧바로'가 올바른 표준 부사입니다."
+    tip: "💡 세종대왕 꿀팁: '곧바로'가 올바른 표준 부사입니다."
   },
   {
     id: 70,
@@ -559,7 +559,7 @@ const questionBank = [
     options: ["덩실덩실", "덩실덩실이"],
     correct: 0,
     principle: "신나서 몸을 춤추는 모양은 첩어 부사 '덩실덩실'입니다.",
-    tip: "💡 꿀팁: '덩실덩실 춤을 추다'!"
+    tip: "💡 세종대왕 꿀팁: '덩실덩실 춤을 추다'!"
   },
   {
     id: 71,
@@ -567,7 +567,7 @@ const questionBank = [
     options: ["준비했다", "준비햇다"],
     correct: 0,
     principle: "과거형 어미 '았/었'을 사용하여 '준비했다'가 바릅니다.",
-    tip: "💡 꿀팁: 과거형 받침은 'ㅆ'입니다!"
+    tip: "💡 세종대왕 꿀팁: 과거형 받침은 'ㅆ'입니다!"
   },
   {
     id: 72,
@@ -575,7 +575,7 @@ const questionBank = [
     options: ["놀랐다", "놀랫다"],
     correct: 0,
     principle: "'놀라다'의 과거형은 '놀랐다'가 바른 표기입니다.",
-    tip: "💡 꿀팁: '놀랫다'는 오타, '놀랐다'가 정답!"
+    tip: "💡 세종대왕 꿀팁: '놀랫다'는 오타, '놀랐다'가 정답!"
   },
   {
     id: 73,
@@ -583,7 +583,7 @@ const questionBank = [
     options: ["감사드립니다", "감사드림니다"],
     correct: 0,
     principle: "격식체 종결 어미는 '습니다/드립니다'가 올바릅니다.",
-    tip: "💡 꿀팁: '드림니다'는 오타! '드립니다'가 맞습니다."
+    tip: "💡 세종대왕 꿀팁: '드림니다'는 오타! '드립니다'가 맞습니다."
   },
   {
     id: 74,
@@ -591,7 +591,7 @@ const questionBank = [
     options: ["꼼꼼하게", "꼼꼼이"],
     correct: 0,
     principle: "빈틈이 없음을 뜻하는 형용사 '꼼꼼하다'의 부사형은 '꼼꼼하게/꼼꼼히'입니다.",
-    tip: "💡 꿀팁: '꼼꼼이'는 틀린 표기! '꼼꼼하게/꼼꼼히'가 맞습니다."
+    tip: "💡 세종대왕 꿀팁: '꼼꼼이'는 틀린 표기! '꼼꼼하게/꼼꼼히'가 맞습니다."
   },
   {
     id: 75,
@@ -599,7 +599,7 @@ const questionBank = [
     options: ["재미있게", "재미잇게"],
     correct: 0,
     principle: "존재를 나타내는 어원 '있다'의 활용형은 '있게'입니다.",
-    tip: "💡 꿀팁: 받침 'ㅆ'을 적는 것이 올바릅니다."
+    tip: "💡 세종대왕 꿀팁: 받침 'ㅆ'을 적는 것이 올바릅니다."
   },
   {
     id: 76,
@@ -607,7 +607,7 @@ const questionBank = [
     options: ["맑으면", "막으면"],
     correct: 0,
     principle: "날씨가 맑은 상태를 뜻할 때는 'ㄹㄱ' 받침의 '맑으면'이 맞습니다.",
-    tip: "💡 꿀팁: '맑다'의 어간 '맑-'을 밝혀 적습니다."
+    tip: "💡 세종대왕 꿀팁: '맑다'의 어간 '맑-'을 밝혀 적습니다."
   },
   {
     id: 77,
@@ -615,7 +615,7 @@ const questionBank = [
     options: ["해냈다", "해넷다"],
     correct: 0,
     principle: "성취를 뜻하는 '해내다'의 과거형은 '해냈다'입니다.",
-    tip: "💡 꿀팁: 과거 어미 받침 'ㅆ'을 씁니다."
+    tip: "💡 세종대왕 꿀팁: 과거 어미 받침 'ㅆ'을 씁니다."
   },
   {
     id: 78,
@@ -623,7 +623,7 @@ const questionBank = [
     options: ["우승했다", "우승햇다"],
     correct: 0,
     principle: "우승을 거둔 과거 사실은 '우승했다'가 올바릅니다.",
-    tip: "💡 꿀팁: 과거형 표기는 받침 'ㅆ'!"
+    tip: "💡 세종대왕 꿀팁: 과거형 표기는 받침 'ㅆ'!"
   },
   {
     id: 79,
@@ -631,7 +631,7 @@ const questionBank = [
     options: ["네", "예"],
     correct: 0,
     principle: "대답할 때 쓰는 '네'와 '예'는 모두 표준어입니다.",
-    tip: "💡 꿀팁: '네'와 '예' 모두 바른 표현입니다."
+    tip: "💡 세종대왕 꿀팁: '네'와 '예' 모두 바른 표현입니다."
   },
   {
     id: 80,
@@ -639,7 +639,7 @@ const questionBank = [
     options: ["바르게", "바루게"],
     correct: 0,
     principle: "올바른 상태를 뜻하는 단어는 '바르게'입니다.",
-    tip: "💡 꿀팁: 바른 맞춤법은 '바르게'!"
+    tip: "💡 세종대왕 꿀팁: 바른 맞춤법은 '바르게'!"
   },
   {
     id: 81,
@@ -647,7 +647,7 @@ const questionBank = [
     options: ["성실하게", "성실히"],
     correct: 0,
     principle: "정성스럽고 참된 태도는 '성실하다(성실하게)'입니다.",
-    tip: "💡 꿀팁: '성실하게 답변하다'가 자연스럽습니다."
+    tip: "💡 세종대왕 꿀팁: '성실하게 답변하다'가 자연스럽습니다."
   },
   {
     id: 82,
@@ -655,7 +655,7 @@ const questionBank = [
     options: ["빛났다", "빛냣다"],
     correct: 0,
     principle: "'빛나다'의 과거형은 '빛났다'가 바른 표기입니다.",
-    tip: "💡 꿀팁: 과거형에는 받침 'ㅆ'!"
+    tip: "💡 세종대왕 꿀팁: 과거형에는 받침 'ㅆ'!"
   },
   {
     id: 83,
@@ -663,7 +663,7 @@ const questionBank = [
     options: ["잊지 말고", "잊지말고"],
     correct: 0,
     principle: "동사와 보조 용언 '말다' 사이는 띄어 씁니다.",
-    tip: "💡 꿀팁: '잊지 말고'처럼 띄어 씁니다."
+    tip: "💡 세종대왕 꿀팁: '잊지 말고'처럼 띄어 씁니다."
   },
   {
     id: 84,
@@ -671,7 +671,7 @@ const questionBank = [
     options: ["값진", "갑진"],
     correct: 0,
     principle: "가치가 있다는 뜻의 형용사는 '값지다(값진)'가 올바릅니다.",
-    tip: "💡 꿀팁: 받침 'ㅄ'이 들어간 '값진'이 맞는 표기입니다!"
+    tip: "💡 세종대왕 꿀팁: 받침 'ㅄ'이 들어간 '값진'이 맞는 표기입니다!"
   },
   {
     id: 85,
@@ -679,7 +679,7 @@ const questionBank = [
     options: ["행복한", "행복햔"],
     correct: 0,
     principle: "기쁨과 만복이 가득한 상태는 '행복하다(행복한)'입니다.",
-    tip: "💡 꿀팁: 올바른 단어는 '행복한'입니다."
+    tip: "💡 세종대왕 꿀팁: 올바른 단어는 '행복한'입니다."
   },
   {
     id: 86,
@@ -687,7 +687,7 @@ const questionBank = [
     options: ["약속했다", "약속햇다"],
     correct: 0,
     principle: "과거 사실을 나타낼 땐 받침 'ㅆ'의 '약속했다'가 맞습니다.",
-    tip: "💡 꿀팁: 과거형 어미는 '았/었'!"
+    tip: "💡 세종대왕 꿀팁: 과거형 어미는 '았/었'!"
   },
   {
     id: 87,
@@ -695,7 +695,7 @@ const questionBank = [
     options: ["더욱더", "더욱 더"],
     correct: 0,
     principle: "부사 '더욱더'는 한 단어로 붙여 쓸 수 있습니다.",
-    tip: "💡 꿀팁: '더욱더'는 붙여 쓰는 것이 허용됩니다."
+    tip: "💡 세종대왕 꿀팁: '더욱더'는 붙여 쓰는 것이 허용됩니다."
   },
   {
     id: 88,
@@ -703,7 +703,7 @@ const questionBank = [
     options: ["차근차근", "차근차근히"],
     correct: 0,
     principle: "순서대로 차분히 진행하는 부사는 '차근차근'입니다.",
-    tip: "💡 꿀팁: '차근차근'이 바른 표현입니다."
+    tip: "💡 세종대왕 꿀팁: '차근차근'이 바른 표현입니다."
   },
   {
     id: 89,
@@ -711,7 +711,7 @@ const questionBank = [
     options: ["뿌듯하다", "뿌듯햣다"],
     correct: 0,
     principle: "기쁨과 만족감이 가득한 상태는 '뿌듯하다'입니다.",
-    tip: "💡 꿀팁: 올바른 표준어는 '뿌듯하다'입니다."
+    tip: "💡 세종대왕 꿀팁: 올바른 표준어는 '뿌듯하다'입니다."
   },
   {
     id: 90,
@@ -719,7 +719,7 @@ const questionBank = [
     options: ["멋진", "멋찐"],
     correct: 0,
     principle: "훌륭하고 근사하다는 뜻의 형용사는 '멋지다(멋진)'입니다.",
-    tip: "💡 꿀팁: '멋찐'은 오타! '멋진'이 바른 맞춤법입니다."
+    tip: "💡 세종대왕 꿀팁: '멋찐'은 오타! '멋진'이 바른 맞춤법입니다."
   },
   {
     id: 91,
@@ -727,7 +727,7 @@ const questionBank = [
     options: ["성큼", "성큼이"],
     correct: 0,
     principle: "크게 걸어오거나 성큼 다가오는 부사는 '성큼'입니다.",
-    tip: "💡 꿀팁: '성큼 다가오다'가 올바른 표현입니다."
+    tip: "💡 세종대왕 꿀팁: '성큼 다가오다'가 올바른 표현입니다."
   },
   {
     id: 92,
@@ -735,7 +735,7 @@ const questionBank = [
     options: ["새겼다", "새겻다"],
     correct: 0,
     principle: "'새기다'의 과거형은 '새겼다'가 올바른 표현입니다.",
-    tip: "💡 꿀팁: 과거형 어미 받침 'ㅆ'!"
+    tip: "💡 세종대왕 꿀팁: 과거형 어미 받침 'ㅆ'!"
   },
   {
     id: 93,
@@ -743,7 +743,7 @@ const questionBank = [
     options: ["어느새", "어느세"],
     correct: 0,
     principle: "'어느 사이'가 줄어든 말은 '어느새'가 올바릅니다.",
-    tip: "💡 꿀팁: '어느 사이' -> '어느새'!"
+    tip: "💡 세종대왕 꿀팁: '어느 사이' -> '어느새'!"
   },
   {
     id: 94,
@@ -751,7 +751,7 @@ const questionBank = [
     options: ["솔직하게", "솔직이"],
     correct: 0,
     principle: "거짓 없는 마음을 전할 때는 '솔직하게'가 맞습니다.",
-    tip: "💡 꿀팁: '솔직이'는 오타! '솔직하게/솔직히'가 맞습니다."
+    tip: "💡 세종대왕 꿀팁: '솔직이'는 오타! '솔직하게/솔직히'가 맞습니다."
   },
   {
     id: 95,
@@ -759,7 +759,7 @@ const questionBank = [
     options: ["마무리했다", "마무리햇다"],
     correct: 0,
     principle: "과거형 표기는 받침 'ㅆ'의 '마무리했다'가 바릅니다.",
-    tip: "💡 꿀팁: 과거형은 '았/었'!"
+    tip: "💡 세종대왕 꿀팁: 과거형은 '았/었'!"
   },
   {
     id: 96,
@@ -767,7 +767,7 @@ const questionBank = [
     options: ["훈훈해졌다", "훈훈해졋다"],
     correct: 0,
     principle: "따스함이 감도는 과거형 표현은 '훈훈해졌다'입니다.",
-    tip: "💡 꿀팁: 과거 어미 받침 'ㅆ'!"
+    tip: "💡 세종대왕 꿀팁: 과거 어미 받침 'ㅆ'!"
   },
   {
     id: 97,
@@ -775,7 +775,7 @@ const questionBank = [
     options: ["간직하자", "간직하쟈"],
     correct: 0,
     principle: "청유형 어미는 '하자'가 올바릅니다.",
-    tip: "💡 꿀팁: '간직하쟈'는 오타! '간직하자'가 맞습니다."
+    tip: "💡 세종대왕 꿀팁: '간직하쟈'는 오타! '간직하자'가 맞습니다."
   },
   {
     id: 98,
@@ -783,7 +783,7 @@ const questionBank = [
     options: ["쑥쑥 늘어난다", "쑥쑥 느러난다"],
     correct: 0,
     principle: "성장하고 증가하는 것은 '늘어나다'가 바른 표현입니다.",
-    tip: "💡 꿀팁: '느러난다'는 소리 나는 대로 쓴 오타! '늘어난다'가 맞습니다."
+    tip: "💡 세종대왕 꿀팁: '느러난다'는 소리 나는 대로 쓴 오타! '늘어난다'가 맞습니다."
   },
   {
     id: 99,
@@ -791,7 +791,7 @@ const questionBank = [
     options: ["노력하자", "노력하쟈"],
     correct: 0,
     principle: "청유형 어미 '하자'를 사용하는 것이 올바른 표현입니다.",
-    tip: "💡 꿀팁: '노력하자'가 바른 표기입니다."
+    tip: "💡 세종대왕 꿀팁: '노력하자'가 바른 표기입니다."
   },
   {
     id: 100,
@@ -799,7 +799,7 @@ const questionBank = [
     options: ["달인", "다린"],
     correct: 0,
     principle: "어떤 분야에 통달한 사람을 뜻하는 표준어는 '달인(達人)'입니다.",
-    tip: "💡 꿀팁: '다린'은 소리 나는 대로 적은 오타! '달인'이 맞습니다."
+    tip: "💡 세종대왕 꿀팁: '다린'은 소리 나는 대로 적은 오타! '달인'이 맞습니다."
   }
 ];
 
@@ -921,14 +921,13 @@ function handleStudentAuth() {
   const pass = document.getElementById('student-pass').value.trim();
 
   if (!grade || !classNum || !num || !name || !pass) {
-    alert('⚠️ 학년, 반, 번호, 이름, 비밀번호를 모두 입력해 주세요!');
+    alert('⚠️ 학년, 반, 번호, 성함, 비밀번호를 모두 입력해 주세요!');
     return;
   }
 
   const uid = `std_${grade}_${classNum}_${num}_${name}`;
-  const displayName = `${grade}학년 ${classNum}반 ${num}번 ${name}`;
+  const displayName = `${grade}학년 ${classNum}반 ${num}번 ${name} 유생`;
 
-  // 기존 사용자 데이터베이스 조회 또는 생성
   let usersDB = JSON.parse(localStorage.getItem('spelmaker-users-db') || '{}');
 
   if (!usersDB[uid]) {
@@ -957,10 +956,10 @@ function handleStudentAuth() {
   enterLobby();
 }
 
-// 게스트 / 익명 로그인 처리
+// 게스트 로그인 처리
 function handleGuestAuth() {
   const randomId = Math.floor(Math.random() * 8999) + 1000;
-  const displayName = `게스트 용사 #${randomId}`;
+  const displayName = `게스트 유생 #${randomId}`;
   const uid = `guest_${randomId}`;
 
   currentUser = {
@@ -979,20 +978,18 @@ function handleGuestAuth() {
   enterLobby();
 }
 
-// 로그아웃
 function handleLogout() {
   localStorage.removeItem('spelmaker-player');
   currentUser = null;
   switchScreen(loginScreen);
 }
 
-// 로비 진입 및 프로필 & 히스토리 렌더링
 function enterLobby() {
   if (!currentUser) return;
 
   topUserNameEl.textContent = currentUser.displayName;
   welcomeUserNameEl.textContent = currentUser.name;
-  userAvatarCharEl.textContent = currentUser.name[0] || '용';
+  userAvatarCharEl.textContent = currentUser.name[0] || '유';
 
   userBestScoreEl.textContent = `${currentUser.bestScore || 0}점`;
   userQuizClearsEl.textContent = `${currentUser.totalClears || 0}회`;
@@ -1001,7 +998,6 @@ function enterLobby() {
   switchScreen(lobbyScreen);
 }
 
-// 무작위 셔플 (Fisher-Yates)
 function shuffleArray(array) {
   const arr = [...array];
   for (let i = arr.length - 1; i > 0; i--) {
@@ -1011,7 +1007,6 @@ function shuffleArray(array) {
   return arr;
 }
 
-// 퀴즈 세션 시작
 function startQuizSession() {
   if (!currentUser) return;
 
@@ -1020,13 +1015,12 @@ function startQuizSession() {
   currentQuestionIndex = 0;
   userAnswers = new Array(10).fill(null);
 
-  quizStudentBadge.textContent = `👤 ${currentUser.displayName}`;
+  quizStudentBadge.textContent = `👑 ${currentUser.displayName}`;
 
   switchScreen(quizScreen);
   renderQuestion();
 }
 
-// 현재 문제 렌더링
 function renderQuestion() {
   const qData = activeQuizQuestions[currentQuestionIndex];
 
@@ -1100,7 +1094,7 @@ function goToNextQuestion() {
   }
 }
 
-// 퀴즈 제출 및 DB 기록 저장
+// 퀴즈 제출 및 세종대왕님 칭찬 메시지 채점
 function submitQuiz() {
   let correctCount = 0;
   activeQuizQuestions.forEach((q, idx) => {
@@ -1111,35 +1105,33 @@ function submitQuiz() {
 
   const finalScore = correctCount * 10;
 
-  // DB에 응시 기록 저장
   saveQuizRecordToDB(finalScore, correctCount);
 
   switchScreen(resultScreen);
 
-  resultStudentInfoEl.textContent = `🎓 ${currentUser.displayName} 학생의 맞춤법 성적표`;
+  resultStudentInfoEl.textContent = `🎓 ${currentUser.displayName}의 훈민정음 성적표`;
   scoreSummaryTextEl.textContent = `총 10문제 중 ${correctCount}문제 정답!`;
 
   if (finalScore === 100) {
-    resultEmojiEl.textContent = '🏆';
-    resultTitleEl.textContent = '완벽한 100점 만점! 맞춤법 달인!';
+    resultEmojiEl.textContent = '👑';
+    resultTitleEl.textContent = '👑 세종대왕 옥새 칭찬! 완벽한 100점 만점이로다!';
     launchConfetti();
   } else if (finalScore >= 80) {
     resultEmojiEl.textContent = '🎉';
-    resultTitleEl.textContent = '참 잘했어요! 뛰어난 어휘력!';
+    resultTitleEl.textContent = '🎉 참 잘하였도다! 장차 큰 한글 학자가 되겠구나!';
     launchConfetti();
   } else if (finalScore >= 60) {
     resultEmojiEl.textContent = '👍';
-    resultTitleEl.textContent = '좋은 점수예요! 오답 노트를 복습해봐요!';
+    resultTitleEl.textContent = '👍 좋은 노력이로다! 조금만 더 복습해보거라!';
   } else {
     resultEmojiEl.textContent = '📖';
-    resultTitleEl.textContent = '오답 노트를 확인하고 차근차근 다시 도전해봐요!';
+    resultTitleEl.textContent = '📖 세종대왕님의 교지 오답노트를 보고 다시 도전해보거라!';
   }
 
   animateScore(finalScore);
   renderReviewList();
 }
 
-// 데이터베이스에 기록 저장 함수 (DB Records)
 function saveQuizRecordToDB(score, correctCount) {
   if (!currentUser) return;
 
@@ -1156,12 +1148,10 @@ function saveQuizRecordToDB(score, correctCount) {
     date: timeString
   };
 
-  // DB에 응시 기록 추가
   let recordsDB = JSON.parse(localStorage.getItem('spelmaker-quiz-records') || '[]');
   recordsDB.unshift(recordObj);
   localStorage.setItem('spelmaker-quiz-records', JSON.stringify(recordsDB));
 
-  // 유저 개인 통계 업데이트
   currentUser.totalClears = (currentUser.totalClears || 0) + 1;
   if (score > (currentUser.bestScore || 0)) {
     currentUser.bestScore = score;
@@ -1169,7 +1159,6 @@ function saveQuizRecordToDB(score, correctCount) {
 
   localStorage.setItem('spelmaker-player', JSON.stringify(currentUser));
 
-  // 전체 유저 DB 갱신
   let usersDB = JSON.parse(localStorage.getItem('spelmaker-users-db') || '{}');
   if (usersDB[currentUser.uid]) {
     usersDB[currentUser.uid].bestScore = currentUser.bestScore;
@@ -1178,7 +1167,6 @@ function saveQuizRecordToDB(score, correctCount) {
   }
 }
 
-// 내 이전 기록 렌더링
 function renderMyHistory() {
   if (!currentUser) return;
 
@@ -1188,7 +1176,7 @@ function renderMyHistory() {
   myHistoryList.innerHTML = '';
 
   if (myRecords.length === 0) {
-    myHistoryList.innerHTML = '<div class="history-item"><span class="history-date">아직 응시한 기록이 없습니다. 첫 퀴즈에 도전해보세요!</span></div>';
+    myHistoryList.innerHTML = '<div class="history-item"><span class="history-date">아직 응시한 성적표가 없습니다. 첫 퀴즈에 도전해보거라!</span></div>';
     return;
   }
 
@@ -1196,26 +1184,23 @@ function renderMyHistory() {
     const item = document.createElement('div');
     item.className = 'history-item';
     item.innerHTML = `
-      <span class="history-date">📅 ${rec.date}</span>
+      <span class="history-date">📜 ${rec.date}</span>
       <span class="history-score">${rec.score}점 <small>(${rec.correctCount}/10)</small></span>
     `;
     myHistoryList.appendChild(item);
   });
 }
 
-// 명예의 전당 랭킹 렌더링
 function renderHallOfFame() {
   let usersDB = JSON.parse(localStorage.getItem('spelmaker-users-db') || '{}');
   let usersList = Object.values(usersDB);
 
-  // 게스트 계정 포함 처리
   if (currentUser && currentUser.uid.startsWith('guest_')) {
     if (!usersList.find(u => u.uid === currentUser.uid)) {
       usersList.push(currentUser);
     }
   }
 
-  // 최고 점수 및 클리어 횟수 기준 정렬
   usersList.sort((a, b) => {
     if (b.bestScore !== a.bestScore) {
       return b.bestScore - a.bestScore;
@@ -1226,7 +1211,7 @@ function renderHallOfFame() {
   rankListContainer.innerHTML = '';
 
   if (usersList.length === 0) {
-    rankListContainer.innerHTML = '<div class="rank-row"><span>등록된 랭커가 아직 없습니다.</span></div>';
+    rankListContainer.innerHTML = '<div class="rank-row"><span>등록된 유생이 아직 없습니다.</span></div>';
     return;
   }
 
@@ -1234,13 +1219,13 @@ function renderHallOfFame() {
     const row = document.createElement('div');
     row.className = `rank-row rank-${idx + 1}`;
     
-    const rankEmoji = idx === 0 ? '🥇' : idx === 1 ? '🥈' : idx === 2 ? '🥉' : `${idx + 1}`;
+    const rankEmoji = idx === 0 ? '🥇 으뜸 유생' : idx === 1 ? '🥈 버금 유생' : idx === 2 ? '🥉 딸림 유생' : `${idx + 1}위`;
     const isMe = currentUser && currentUser.uid === user.uid;
 
     row.innerHTML = `
       <span class="rank-num">${rankEmoji}</span>
-      <span class="rank-name">${user.displayName} ${isMe ? ' <small style="color:#6366f1;">(나)</small>' : ''}</span>
-      <span class="rank-score">${user.bestScore || 0}점 <small style="font-size:0.8rem; color:#64748b;">(${user.totalClears || 0}회 완료)</small></span>
+      <span class="rank-name">${user.displayName} ${isMe ? ' <small style="color:#4338ca;">(나)</small>' : ''}</span>
+      <span class="rank-score">${user.bestScore || 0}점 <small style="font-size:0.8rem; color:#64748b;">(${user.totalClears || 0}회 완수)</small></span>
     `;
 
     rankListContainer.appendChild(row);
@@ -1263,7 +1248,6 @@ function animateScore(targetScore) {
   }, stepTime);
 }
 
-// 오답 노트 렌더링
 function renderReviewList() {
   reviewContainer.innerHTML = '';
 
@@ -1292,7 +1276,7 @@ function renderReviewList() {
         ${!isCorrect ? `<div class="correct-ans"><strong>정답:</strong> ${correctChoiceText}</div>` : ''}
       </div>
       <div class="explanation-box">
-        <div class="explanation-title">📌 올바른 맞춤법 원리</div>
+        <div class="explanation-title">📌 세종대왕님의 올바른 맞춤법 교지</div>
         <div class="explanation-principle">${q.principle}</div>
         <div class="explanation-tip">${q.tip}</div>
       </div>
@@ -1302,7 +1286,6 @@ function renderReviewList() {
   });
 }
 
-// 폭죽 애니메이션
 function launchConfetti() {
   const canvas = document.getElementById('confetti-canvas');
   if (!canvas) return;
@@ -1312,9 +1295,9 @@ function launchConfetti() {
   canvas.height = canvas.parentElement.clientHeight;
 
   const particles = [];
-  const colors = ['#6366f1', '#a855f7', '#10b981', '#f59e0b', '#ec4899'];
+  const colors = ['#f59e0b', '#4338ca', '#10b981', '#e11d48', '#a855f7'];
 
-  for (let i = 0; i < 70; i++) {
+  for (let i = 0; i < 75; i++) {
     particles.push({
       x: canvas.width / 2,
       y: canvas.height / 2,

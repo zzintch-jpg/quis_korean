@@ -1,25 +1,24 @@
-/* tenmaker.vercel.app Inspired CSS Design System */
+/* King Sejong & Traditional Korean Cute Design System */
 :root {
-  --primary-color: #6366f1;
-  --primary-hover: #4f46e5;
+  --primary-color: #4338ca;      /* 곤룡포 로열 인디고 */
+  --primary-hover: #3730a3;
   --primary-light: #e0e7ff;
   --secondary-color: #64748b;
   --secondary-hover: #475569;
-  --accent-color: #ec4899;
-  --gold-color: #f59e0b;
-  --success-color: #10b981;
-  --success-bg: #ecfdf5;
-  --danger-color: #ef4444;
-  --danger-bg: #fef2f2;
-  --bg-gradient: linear-gradient(135deg, #a855f7 0%, #6366f1 50%, #3b82f6 100%);
+  --royal-gold: #f59e0b;         /* 단청 골드 */
+  --royal-gold-light: #fef3c7;
+  --royal-crimson: #e11d48;      /* 붉은 단청 에센트 */
+  --royal-jade: #10b981;         /* 한복 옥색 */
+  --hanji-bg: #fffbeb;           /* 따스한 한지 크림 */
+  --bg-gradient: linear-gradient(135deg, #f59e0b 0%, #6366f1 50%, #4338ca 100%);
   --card-bg: #ffffff;
-  --text-main: #0f172a;
+  --text-main: #1e1b4b;
   --text-muted: #64748b;
   --border-radius-lg: 28px;
   --border-radius-md: 18px;
   --border-radius-sm: 12px;
-  --shadow-lg: 0 25px 30px -5px rgba(0, 0, 0, 0.12), 0 12px 15px -5px rgba(0, 0, 0, 0.04);
-  --shadow-md: 0 10px 18px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0 25px 30px -5px rgba(0, 0, 0, 0.14), 0 12px 15px -5px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 10px 18px -3px rgba(67, 56, 202, 0.08);
 }
 
 * {
@@ -47,10 +46,10 @@ body {
   position: relative;
 }
 
-/* Floating Clouds (tenmaker style) */
+/* Floating Clouds (Korean Cloud Style) */
 .cloud {
   position: absolute;
-  background: rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.35);
   backdrop-filter: blur(4px);
   border-radius: 100px;
   pointer-events: none;
@@ -58,16 +57,16 @@ body {
 }
 
 .cloud.c1 {
-  width: 180px;
-  height: 60px;
+  width: 200px;
+  height: 65px;
   top: -40px;
   left: -60px;
   animation: floatCloud 14s infinite alternate ease-in-out;
 }
 
 .cloud.c2 {
-  width: 220px;
-  height: 70px;
+  width: 240px;
+  height: 75px;
   bottom: -40px;
   right: -70px;
   animation: floatCloud 18s infinite alternate-reverse ease-in-out;
@@ -90,6 +89,7 @@ body {
   align-items: center;
   position: relative;
   z-index: 2;
+  border: 3px solid #fef3c7;
 }
 
 .card-screen.hidden {
@@ -110,67 +110,99 @@ body {
   to { opacity: 1; transform: translateY(0); }
 }
 
-/* tenmaker Brand Lockup & Hero */
+/* Scroll Card (한지 족자 테마) */
+.scroll-card {
+  background: #fffdf5;
+  border: 3px double var(--royal-gold);
+  border-radius: var(--border-radius-lg);
+  box-shadow: inset 0 0 20px rgba(245, 158, 11, 0.05), var(--shadow-md);
+  position: relative;
+}
+
+.scroll-card-sm {
+  background: #fffdf5;
+  border: 2px solid #fde68a;
+  border-radius: var(--border-radius-md);
+  box-shadow: inset 0 0 10px rgba(245, 158, 11, 0.05);
+}
+
+/* Brand Lockup & Royal Crown Logo */
 .brand-lockup {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 14px;
   margin-bottom: 14px;
 }
 
-.logo-mark {
-  width: 52px;
-  height: 52px;
-  border-radius: 18px;
-  background: linear-gradient(135deg, #6366f1, #a855f7);
+.logo-mark.royal {
+  width: 58px;
+  height: 58px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, #f59e0b, #e11d48);
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1.8rem;
+  font-size: 2.2rem;
   color: #ffffff;
-  box-shadow: 0 8px 16px rgba(99, 102, 241, 0.3);
+  box-shadow: 0 8px 18px rgba(245, 158, 11, 0.4);
+  animation: pulseCrown 3s infinite ease-in-out;
 }
 
-.logo-mark.sm {
-  width: 36px;
-  height: 36px;
-  border-radius: 10px;
-  font-size: 1.2rem;
+@keyframes pulseCrown {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+.logo-mark.sm.royal {
+  width: 38px;
+  height: 38px;
+  border-radius: 12px;
+  font-size: 1.3rem;
 }
 
 .brand-lockup h1 {
   font-family: 'Jua', sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.95rem;
   line-height: 1;
-  color: var(--text-main);
+  color: var(--primary-color);
 }
 
 .brand-lockup p {
   font-size: 0.78rem;
   font-weight: 800;
-  letter-spacing: 1.5px;
-  color: var(--primary-color);
+  letter-spacing: 2px;
+  color: var(--royal-gold);
 }
 
+/* Royal Quotes & Subheads */
 .hero-subhead {
   font-family: 'Jua', sans-serif;
-  font-size: 2.2rem;
+  font-size: 2.1rem;
   text-align: center;
-  line-height: 1.2;
+  line-height: 1.25;
   margin-bottom: 16px;
   color: var(--text-main);
 }
 
+.royal-quote {
+  font-family: 'Jua', cursive;
+  font-size: 1.4rem;
+  color: var(--royal-crimson);
+  display: block;
+  margin-bottom: 4px;
+}
+
 .hero-subhead em {
   font-style: normal;
-  background: linear-gradient(135deg, #6366f1, #ec4899);
+  background: linear-gradient(135deg, #4338ca, #e11d48);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-.hero-numbers {
-  background: #f8fafc;
-  border: 2px dashed #cbd5e1;
+/* Royal Badge (훈민정음 뱃지) */
+.hero-numbers.royal-badge {
+  background: #fef3c7;
+  border: 2px solid #fde68a;
   border-radius: 50px;
   padding: 10px 24px;
   display: flex;
@@ -181,20 +213,20 @@ body {
   margin-bottom: 18px;
 }
 
-.hero-numbers span {
+.royal-badge span {
   background: #ffffff;
   padding: 4px 14px;
   border-radius: 12px;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+  box-shadow: 0 2px 6px rgba(245, 158, 11, 0.2);
   color: var(--primary-color);
 }
 
-.hero-numbers b {
-  color: var(--secondary-color);
+.royal-badge b {
+  color: var(--royal-crimson);
 }
 
-.hero-numbers strong {
-  color: var(--accent-color);
+.royal-badge strong {
+  color: #b45309;
   font-size: 1.5rem;
 }
 
@@ -207,7 +239,7 @@ body {
   word-break: keep-all;
 }
 
-/* Student Auth Form */
+/* Student Form */
 .login-card {
   width: 100%;
   display: flex;
@@ -215,17 +247,17 @@ body {
   align-items: center;
 }
 
-.student-form {
+.student-form.royal-form {
   width: 100%;
-  background: #f8fafc;
-  border: 2px solid #e2e8f0;
+  background: #fffbeb;
+  border: 2px solid #fde68a;
   border-radius: var(--border-radius-md);
   padding: 24px;
 }
 
 .form-title {
   font-family: 'Jua', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   color: var(--primary-color);
   margin-bottom: 16px;
 }
@@ -257,7 +289,7 @@ body {
 .input-group select {
   width: 100%;
   padding: 12px 14px;
-  border: 2px solid #cbd5e1;
+  border: 2px solid #fde68a;
   border-radius: var(--border-radius-sm);
   font-size: 0.98rem;
   font-weight: 600;
@@ -269,8 +301,8 @@ body {
 
 .input-group input:focus,
 .input-group select:focus {
-  border-color: var(--primary-color);
-  box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.15);
+  border-color: var(--royal-gold);
+  box-shadow: 0 0 0 4px rgba(245, 158, 11, 0.2);
 }
 
 /* Buttons */
@@ -299,7 +331,7 @@ body {
 
 .btn-ghost:hover {
   color: var(--primary-color);
-  background: rgba(99, 102, 241, 0.06);
+  background: rgba(67, 56, 202, 0.06);
 }
 
 .btn:disabled {
@@ -309,15 +341,15 @@ body {
   box-shadow: none !important;
 }
 
-.btn-primary {
-  background: linear-gradient(135deg, #6366f1, #a855f7);
+.btn-primary.royal-btn {
+  background: linear-gradient(135deg, #f59e0b, #4338ca);
   color: #ffffff;
-  box-shadow: 0 4px 14px rgba(99, 102, 241, 0.4);
+  box-shadow: 0 4px 14px rgba(245, 158, 11, 0.4);
 }
 
-.btn-primary:hover:not(:disabled) {
+.btn-primary.royal-btn:hover:not(:disabled) {
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(99, 102, 241, 0.5);
+  box-shadow: 0 6px 20px rgba(245, 158, 11, 0.5);
 }
 
 .btn-secondary {
@@ -348,9 +380,9 @@ body {
 }
 
 @keyframes pulseGlow {
-  0% { box-shadow: 0 0 0 0 rgba(99, 102, 241, 0.4); }
-  70% { box-shadow: 0 0 0 16px rgba(99, 102, 241, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(99, 102, 241, 0); }
+  0% { box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.4); }
+  70% { box-shadow: 0 0 0 16px rgba(245, 158, 11, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(245, 158, 11, 0); }
 }
 
 /* Topbar & Lobby Header */
@@ -361,7 +393,7 @@ body {
   justify-content: space-between;
   margin-bottom: 24px;
   padding-bottom: 16px;
-  border-bottom: 1px solid #e2e8f0;
+  border-bottom: 2px solid #fef3c7;
 }
 
 .mini-brand {
@@ -369,7 +401,8 @@ body {
   align-items: center;
   gap: 8px;
   font-family: 'Jua', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.25rem;
+  color: var(--primary-color);
 }
 
 .top-actions {
@@ -378,9 +411,10 @@ body {
   gap: 10px;
 }
 
-.user-pill {
-  background: var(--primary-light);
-  color: var(--primary-color);
+.user-pill.royal-user {
+  background: #fef3c7;
+  color: #b45309;
+  border: 1px solid #fde68a;
   padding: 6px 14px;
   border-radius: 50px;
   display: flex;
@@ -394,13 +428,19 @@ body {
   width: 26px;
   height: 26px;
   border-radius: 50%;
-  background: var(--primary-color);
+  background: var(--royal-gold);
   color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
   font-size: 0.8rem;
   font-weight: 800;
+}
+
+.icon-btn.royal-icon {
+  background: #fef3c7;
+  color: #b45309;
+  border: 1px solid #fde68a;
 }
 
 .icon-btn {
@@ -423,10 +463,10 @@ body {
   color: var(--danger-color);
 }
 
-/* Lobby Welcome Card & Mascot */
-.welcome-card {
+/* Royal Welcome Card */
+.welcome-card.royal-welcome {
   width: 100%;
-  background: linear-gradient(135deg, #1e1b4b, #312e81);
+  background: linear-gradient(135deg, #3730a3, #4338ca);
   color: #ffffff;
   border-radius: var(--border-radius-md);
   padding: 28px 24px;
@@ -435,21 +475,20 @@ body {
   justify-content: space-between;
   margin-bottom: 24px;
   box-shadow: var(--shadow-md);
-  position: relative;
-  overflow: hidden;
+  border: 2px solid #fde68a;
 }
 
 .welcome-text .eyebrow {
-  color: #a5b4fc;
-  font-size: 0.85rem;
-  font-weight: 700;
+  color: #facc15;
+  font-size: 0.88rem;
+  font-weight: 800;
   margin-bottom: 6px;
   display: block;
 }
 
 .welcome-text h1 {
   font-family: 'Jua', sans-serif;
-  font-size: 1.8rem;
+  font-size: 1.85rem;
   line-height: 1.25;
   margin-bottom: 8px;
 }
@@ -460,19 +499,20 @@ body {
 }
 
 .welcome-text p {
-  color: #cbd5e1;
-  font-size: 0.9rem;
+  color: #e0e7ff;
+  font-size: 0.92rem;
 }
 
-.mascot {
-  width: 70px;
-  height: 70px;
-  background: rgba(255, 255, 255, 0.1);
+.mascot.royal-mascot {
+  width: 76px;
+  height: 76px;
+  background: rgba(254, 243, 199, 0.2);
+  border: 2px solid #fde68a;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 2.2rem;
+  font-size: 2.5rem;
   position: relative;
   flex-shrink: 0;
 }
@@ -482,11 +522,11 @@ body {
   top: -4px;
   right: -4px;
   color: #facc15;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   font-style: normal;
 }
 
-/* Stats Cards Grid */
+/* Stats Grid */
 .stats-card-grid {
   width: 100%;
   display: grid;
@@ -495,9 +535,9 @@ body {
   margin-bottom: 24px;
 }
 
-.stat-card {
-  background: #f8fafc;
-  border: 1px solid #e2e8f0;
+.stat-card.royal-stat {
+  background: #fffdf5;
+  border: 2px solid #fde68a;
   border-radius: var(--border-radius-md);
   padding: 16px;
   display: flex;
@@ -506,7 +546,7 @@ body {
 }
 
 .stat-icon {
-  font-size: 2rem;
+  font-size: 2.2rem;
 }
 
 .stat-info small {
@@ -516,8 +556,8 @@ body {
 }
 
 .stat-info strong {
-  font-size: 1.2rem;
-  color: var(--text-main);
+  font-size: 1.3rem;
+  color: var(--primary-color);
   font-family: 'Jua', sans-serif;
 }
 
@@ -531,10 +571,13 @@ body {
 }
 
 .section-title {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   font-weight: 800;
-  color: var(--text-main);
+  color: var(--primary-color);
   margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
 }
 
 .history-list {
@@ -546,8 +589,8 @@ body {
 }
 
 .history-item {
-  background: #ffffff;
-  border: 1px solid #e2e8f0;
+  background: #fffdf5;
+  border: 1px solid #fde68a;
   border-radius: var(--border-radius-sm);
   padding: 14px 16px;
   display: flex;
@@ -562,8 +605,8 @@ body {
 
 .history-score {
   font-family: 'Jua', sans-serif;
-  font-size: 1.2rem;
-  color: var(--primary-color);
+  font-size: 1.25rem;
+  color: var(--royal-gold);
 }
 
 /* Quiz Screen */
@@ -575,10 +618,11 @@ body {
   margin-bottom: 24px;
 }
 
-.student-info-badge {
+.student-info-badge.royal-badge-sm {
   align-self: flex-start;
-  background: var(--primary-light);
-  color: var(--primary-color);
+  background: #fef3c7;
+  color: #b45309;
+  border: 1px solid #fde68a;
   font-weight: 800;
   font-size: 0.92rem;
   padding: 6px 16px;
@@ -612,16 +656,13 @@ body {
 
 .progress-bar {
   height: 100%;
-  background: linear-gradient(90deg, #6366f1, #a855f7);
+  background: linear-gradient(90deg, #f59e0b, #4338ca);
   border-radius: 50px;
   transition: width 0.4s ease;
 }
 
 .question-card {
   width: 100%;
-  background: #f8fafc;
-  border: 2px solid #e2e8f0;
-  border-radius: var(--border-radius-md);
   padding: 26px 22px;
   margin-bottom: 24px;
 }
@@ -629,7 +670,7 @@ body {
 .question-tag {
   font-size: 0.85rem;
   font-weight: 800;
-  color: var(--primary-color);
+  color: var(--royal-crimson);
   margin-bottom: 8px;
 }
 
@@ -653,7 +694,7 @@ body {
 .option-btn {
   width: 100%;
   background: #ffffff;
-  border: 2px solid #e2e8f0;
+  border: 2px solid #fde68a;
   border-radius: var(--border-radius-sm);
   padding: 16px 20px;
   display: flex;
@@ -668,8 +709,8 @@ body {
   width: 34px;
   height: 34px;
   border-radius: 50%;
-  background: #f1f5f9;
-  color: var(--text-muted);
+  background: #fef3c7;
+  color: #b45309;
   font-weight: 800;
   font-size: 0.95rem;
   display: flex;
@@ -686,19 +727,19 @@ body {
 }
 
 .option-btn:hover {
-  border-color: var(--primary-color);
-  background: #fafafa;
+  border-color: var(--royal-gold);
+  background: #fffdf5;
   transform: translateX(4px);
 }
 
 .option-btn.selected {
-  border-color: var(--primary-color);
-  background: var(--primary-light);
-  box-shadow: 0 4px 12px rgba(99, 102, 241, 0.18);
+  border-color: var(--royal-gold);
+  background: #fef3c7;
+  box-shadow: 0 4px 12px rgba(245, 158, 11, 0.25);
 }
 
 .option-btn.selected .option-num {
-  background: var(--primary-color);
+  background: var(--royal-gold);
   color: #ffffff;
 }
 
@@ -739,37 +780,40 @@ body {
 .result-title {
   font-family: 'Jua', sans-serif;
   font-size: 2.2rem;
-  color: var(--text-main);
+  color: var(--primary-color);
   margin-bottom: 8px;
 }
 
-.result-student-tag {
+.result-student-tag.royal-tag {
   font-size: 1.05rem;
   font-weight: 700;
-  color: var(--primary-color);
-  background: var(--primary-light);
+  color: #b45309;
+  background: #fef3c7;
+  border: 1px solid #fde68a;
   padding: 6px 18px;
   border-radius: 50px;
   display: inline-block;
   margin-bottom: 8px;
 }
 
-.db-save-badge {
-  font-size: 0.85rem;
+.db-save-badge.royal-db-badge {
+  font-size: 0.88rem;
   font-weight: 800;
-  color: #059669;
+  color: var(--royal-jade);
   background: #ecfdf5;
+  border: 1px solid #a7f3d0;
   padding: 4px 14px;
   border-radius: 50px;
   display: inline-block;
 }
 
 /* Score Board */
-.score-board {
+.score-board.royal-score-board {
   width: 100%;
-  background: linear-gradient(135deg, #1e1b4b, #312e81);
+  background: linear-gradient(135deg, #3730a3, #4338ca);
   color: #ffffff;
   border-radius: var(--border-radius-md);
+  border: 2px solid #fde68a;
   padding: 24px 20px;
   text-align: center;
   margin-bottom: 32px;
@@ -779,7 +823,7 @@ body {
 .score-label {
   font-size: 0.9rem;
   letter-spacing: 1px;
-  color: #c7d2fe;
+  color: #e0e7ff;
   margin-bottom: 6px;
 }
 
@@ -830,8 +874,8 @@ body {
 .review-card {
   border-radius: var(--border-radius-md);
   padding: 22px;
-  border: 2px solid #e2e8f0;
-  background: #ffffff;
+  border: 2px solid #fde68a;
+  background: #fffdf5;
 }
 
 .review-card.correct {
@@ -906,7 +950,7 @@ body {
 
 .explanation-box {
   background: rgba(255, 255, 255, 0.95);
-  border-left: 4px solid var(--primary-color);
+  border-left: 4px solid var(--royal-gold);
   padding: 14px 16px;
   border-radius: 0 var(--border-radius-sm) var(--border-radius-sm) 0;
 }
@@ -927,13 +971,13 @@ body {
 
 .explanation-tip {
   font-size: 0.9rem;
-  color: #d97706;
-  background: #fffbeb;
+  color: #b45309;
+  background: #fef3c7;
   padding: 8px 12px;
   border-radius: var(--border-radius-sm);
   font-weight: 700;
   line-height: 1.4;
-  border: 1px solid #fef3c7;
+  border: 1px solid #fde68a;
 }
 
 .result-actions {
@@ -955,6 +999,7 @@ body {
 .ranking-header h2 {
   font-family: 'Jua', sans-serif;
   font-size: 1.8rem;
+  color: var(--primary-color);
 }
 
 .rank-list {
@@ -965,8 +1010,8 @@ body {
 }
 
 .rank-row {
-  background: #ffffff;
-  border: 1px solid #e2e8f0;
+  background: #fffdf5;
+  border: 1px solid #fde68a;
   border-radius: var(--border-radius-md);
   padding: 16px 20px;
   display: flex;
@@ -976,8 +1021,8 @@ body {
 }
 
 .rank-row.rank-1 {
-  border-color: #facc15;
-  background: #fefce8;
+  border-color: #f59e0b;
+  background: #fef3c7;
 }
 
 .rank-row.rank-2 {
@@ -1006,7 +1051,7 @@ body {
 .rank-score {
   font-family: 'Jua', sans-serif;
   font-size: 1.4rem;
-  color: var(--primary-color);
+  color: var(--royal-gold);
 }
 
 /* Responsive Mobile Layout */
