@@ -81,8 +81,6 @@ const questionBank = [
     principle: "기본형이 '설레다'이므로 '설렌다/설렘'이 바른 표기입니다.",
     tip: "💡 꿀팁: '설레임'은 아이스크림 이름! 올바른 표준어는 '설렘/설렌다'!"
   },
-
-  // 11 ~ 20: 부사화 접미사 및 표기 구분
   {
     id: 11,
     question: "문제를 풀 때 ( ) 힌트를 보지 않고 혼자 해결했다.",
@@ -163,8 +161,6 @@ const questionBank = [
     principle: "'ㅅ' 받침 뒤의 부사화 접미사는 '이'로 적으므로 '깨끗이'가 맞습니다.",
     tip: "💡 꿀팁: 받침이 'ㅅ'으로 끝나면 대부분 '이'를 붙여요! (깨끗이, 느긋이)"
   },
-
-  // 21 ~ 30: 다의어 및 조사/의존명사 띄어쓰기
   {
     id: 21,
     question: "친구의 장점을 마음껏 ( ) 주었다.",
@@ -245,8 +241,6 @@ const questionBank = [
     principle: "단어와 단어 사이는 띄어 쓰는 것이 원칙입니다.",
     tip: "💡 꿀팁: 각 단어는 원칙적으로 띄어 씁니다."
   },
-
-  // 31 ~ 40: 받침 유의 및 실생활 어휘
   {
     id: 31,
     question: "마음속 깊은 곳에서 ( ) 우러나오는 고마움.",
@@ -327,8 +321,6 @@ const questionBank = [
     principle: "지체 없이 즉시를 뜻하는 부사는 '어서'입니다.",
     tip: "💡 꿀팁: '어서서'는 잘못된 형태, 표준어는 '어서'!"
   },
-
-  // 41 ~ 60: 초등 필수 맞춤법 고난도 및 혼동 어휘
   {
     id: 41,
     question: "학급 회의에서 다수의 의견에 ( ) 결정했다.",
@@ -409,8 +401,6 @@ const questionBank = [
     principle: "과거 어미 '았/었'을 사용하여 '돌아보았다'가 맞습니다.",
     tip: "💡 꿀팁: 과거형은 '았/었'을 사용합니다."
   },
-
-  // 51 ~ 70: 관용표현 및 필수 맞춤법
   {
     id: 51,
     question: "사람들을 아주 많이 알고 아는 낯이 많은 사람은 ( ) 넓다.",
@@ -491,8 +481,6 @@ const questionBank = [
     principle: "심장이 심하게 뛰고 놀라는 상황을 비유하는 표현입니다.",
     tip: "💡 꿀팁: '가슴이 덜덜 떨리다'!"
   },
-
-  // 61 ~ 80: 받침 유의 및 실생활 어휘 정밀 검증
   {
     id: 61,
     question: "칠판에 적힌 글씨를 ( ) 공책에 옮겨 적었다.",
@@ -512,10 +500,6 @@ const questionBank = [
   {
     id: 63,
     question: "맛있는 음식 냄새가 코를 ( ).",
-    options: ["찌렀다", "찌렀다", "찌렀다"], // 중복 교정
-    options: ["찌렀다", "찌렀다"], // 중복 교정 후
-    options: ["찌렀다", "찌렀다"], 
-    options: ["찌렀다", "찌렀다"],
     options: ["찔렀다", "찌렀다"],
     correct: 0,
     principle: "기본형 '찌르다'의 과거형은 'ㄹ' 받침이 살아나 '찔렀다'가 맞습니다.",
@@ -577,8 +561,6 @@ const questionBank = [
     principle: "신나서 몸을 춤추는 모양은 첩어 부사 '덩실덩실'입니다.",
     tip: "💡 꿀팁: '덩실덩실 춤을 추다'!"
   },
-
-  // 71 ~ 90: 문장 완성 및 띄어쓰기/맞춤법
   {
     id: 71,
     question: "친구의 생일을 축하해 주기 위해 선물을 ( ).",
@@ -622,7 +604,6 @@ const questionBank = [
   {
     id: 76,
     question: "소풍날 비가 오지 않고 날씨가 ( ) 좋겠다.",
-    options: ["맑으면", "맑으면"], // 중복 교정
     options: ["맑으면", "막으면"],
     correct: 0,
     principle: "날씨가 맑은 상태를 뜻할 때는 'ㄹㄱ' 받침의 '맑으면'이 맞습니다.",
@@ -660,8 +641,6 @@ const questionBank = [
     principle: "올바른 상태를 뜻하는 단어는 '바르게'입니다.",
     tip: "💡 꿀팁: 바른 맞춤법은 '바르게'!"
   },
-
-  // 81 ~ 100: 생활 속 종합 맞춤법 및 복습 문항
   {
     id: 81,
     question: "친구의 질문에 성심성의껏 ( ) 답변했다.",
@@ -697,7 +676,6 @@ const questionBank = [
   {
     id: 85,
     question: "서로 배려하고 존중하는 ( ) 학급을 만들자.",
-    options: ["행복한", "행복한(행복)"],
     options: ["행복한", "행복햔"],
     correct: 0,
     principle: "기쁨과 만복이 가득한 상태는 '행복하다(행복한)'입니다.",
@@ -743,8 +721,6 @@ const questionBank = [
     principle: "훌륭하고 근사하다는 뜻의 형용사는 '멋지다(멋진)'입니다.",
     tip: "💡 꿀팁: '멋찐'은 오타! '멋진'이 바른 맞춤법입니다."
   },
-
-  // 91 ~ 100: 고난도 최종 점검 문항
   {
     id: 91,
     question: "어느덧 소풍 날짜가 ( ) 다가왔다.",
@@ -827,18 +803,16 @@ const questionBank = [
   }
 ];
 
-// 데이터 유효성 자동 정밀 검사 함수 (중복 보기 및 인덱스 오류 검증)
+// 데이터 유효성 검사 함수
 function validateQuestionBank() {
   const errors = [];
-  questionBank.forEach((q, idx) => {
-    // 1. 보기 중복 체크
+  questionBank.forEach((q) => {
     const uniqueOptions = new Set(q.options);
     if (uniqueOptions.size !== q.options.length) {
       errors.push(`[ID ${q.id}] 보기 중복 발견: ${JSON.stringify(q.options)}`);
     }
-    // 2. 정답 인덱스 범위 체크
     if (q.correct < 0 || q.correct >= q.options.length) {
-      errors.push(`[ID ${q.id}] 정답 인덱스 오류: correct=${q.correct}, options.length=${q.options.length}`);
+      errors.push(`[ID ${q.id}] 정답 인덱스 오류: correct=${q.correct}`);
     }
   });
 
@@ -848,31 +822,39 @@ function validateQuestionBank() {
     console.log(`✅ 총 ${questionBank.length}개 맞춤법 문제 데이터베이스 유효성 검사 완벽 통과!`);
   }
 }
-
-// 초기 실행 시 데이터 검증 실행
 validateQuestionBank();
 
 // 상태 변수
+let currentUser = null;
 let activeQuizQuestions = [];
 let currentQuestionIndex = 0;
 let userAnswers = [];
-let studentProfile = {
-  grade: '',
-  classNum: '',
-  studentNum: '',
-  name: ''
-};
 
 // DOM 요소 참조
-const startScreen = document.getElementById('start-screen');
+const loginScreen = document.getElementById('login-screen');
+const lobbyScreen = document.getElementById('lobby-screen');
 const quizScreen = document.getElementById('quiz-screen');
 const resultScreen = document.getElementById('result-screen');
+const rankingScreen = document.getElementById('ranking-screen');
 
-const startBtn = document.getElementById('start-btn');
+const authStartBtn = document.getElementById('auth-start-btn');
+const guestStartBtn = document.getElementById('guest-start-btn');
+const logoutBtn = document.getElementById('logout-btn');
+const rankingOpenBtn = document.getElementById('ranking-open-btn');
+const rankingBackBtn = document.getElementById('ranking-back-btn');
+const startQuizBtn = document.getElementById('start-quiz-btn');
+
 const prevBtn = document.getElementById('prev-btn');
 const nextBtn = document.getElementById('next-btn');
 const submitBtn = document.getElementById('submit-btn');
 const restartBtn = document.getElementById('restart-btn');
+const goLobbyBtn = document.getElementById('go-lobby-btn');
+
+const topUserNameEl = document.getElementById('top-user-name');
+const userAvatarCharEl = document.getElementById('user-avatar-char');
+const welcomeUserNameEl = document.getElementById('welcome-user-name');
+const userBestScoreEl = document.getElementById('user-best-score');
+const userQuizClearsEl = document.getElementById('user-quiz-clears');
 
 const quizStudentBadge = document.getElementById('quiz-student-badge');
 const currentQuestionNumEl = document.getElementById('current-question-num');
@@ -887,15 +869,139 @@ const resultTitleEl = document.getElementById('result-title');
 const resultStudentInfoEl = document.getElementById('result-student-info');
 const scoreSummaryTextEl = document.getElementById('score-summary-text');
 const reviewContainer = document.getElementById('review-container');
+const myHistoryList = document.getElementById('my-history-list');
+const rankListContainer = document.getElementById('rank-list-container');
 
 // 이벤트 리스너 등록
-startBtn.addEventListener('click', handleStartQuiz);
+authStartBtn.addEventListener('click', handleStudentAuth);
+guestStartBtn.addEventListener('click', handleGuestAuth);
+logoutBtn.addEventListener('click', handleLogout);
+startQuizBtn.addEventListener('click', startQuizSession);
+
 prevBtn.addEventListener('click', goToPrevQuestion);
 nextBtn.addEventListener('click', goToNextQuestion);
 submitBtn.addEventListener('click', submitQuiz);
-restartBtn.addEventListener('click', handleRestartQuiz);
+restartBtn.addEventListener('click', startQuizSession);
+goLobbyBtn.addEventListener('click', () => switchScreen(lobbyScreen));
 
-// 배열 셔플 함수 (Fisher-Yates)
+rankingOpenBtn.addEventListener('click', () => {
+  renderHallOfFame();
+  switchScreen(rankingScreen);
+});
+rankingBackBtn.addEventListener('click', () => switchScreen(lobbyScreen));
+
+// 앱 초기화 및 로컬 세션 확인
+window.addEventListener('DOMContentLoaded', () => {
+  const savedPlayer = localStorage.getItem('spelmaker-player');
+  if (savedPlayer) {
+    currentUser = JSON.parse(savedPlayer);
+    enterLobby();
+  } else {
+    switchScreen(loginScreen);
+  }
+});
+
+// 화면 전환 함수
+function switchScreen(targetScreen) {
+  [loginScreen, lobbyScreen, quizScreen, resultScreen, rankingScreen].forEach(screen => {
+    screen.classList.remove('active');
+    screen.classList.add('hidden');
+  });
+
+  targetScreen.classList.remove('hidden');
+  targetScreen.classList.add('active');
+}
+
+// 학생 등록 / 로그인 처리
+function handleStudentAuth() {
+  const grade = document.getElementById('student-grade').value.trim();
+  const classNum = document.getElementById('student-class').value.trim();
+  const num = document.getElementById('student-num').value.trim();
+  const name = document.getElementById('student-name').value.trim();
+  const pass = document.getElementById('student-pass').value.trim();
+
+  if (!grade || !classNum || !num || !name || !pass) {
+    alert('⚠️ 학년, 반, 번호, 이름, 비밀번호를 모두 입력해 주세요!');
+    return;
+  }
+
+  const uid = `std_${grade}_${classNum}_${num}_${name}`;
+  const displayName = `${grade}학년 ${classNum}반 ${num}번 ${name}`;
+
+  // 기존 사용자 데이터베이스 조회 또는 생성
+  let usersDB = JSON.parse(localStorage.getItem('spelmaker-users-db') || '{}');
+
+  if (!usersDB[uid]) {
+    usersDB[uid] = {
+      uid: uid,
+      displayName: displayName,
+      grade: grade,
+      classNum: classNum,
+      studentNum: num,
+      name: name,
+      pass: pass,
+      bestScore: 0,
+      totalClears: 0
+    };
+  } else {
+    if (usersDB[uid].pass !== pass) {
+      alert('🔒 비밀번호가 일치하지 않습니다. 비밀번호를 다시 확인해 주세요!');
+      return;
+    }
+  }
+
+  localStorage.setItem('spelmaker-users-db', JSON.stringify(usersDB));
+  currentUser = usersDB[uid];
+  localStorage.setItem('spelmaker-player', JSON.stringify(currentUser));
+
+  enterLobby();
+}
+
+// 게스트 / 익명 로그인 처리
+function handleGuestAuth() {
+  const randomId = Math.floor(Math.random() * 8999) + 1000;
+  const displayName = `게스트 용사 #${randomId}`;
+  const uid = `guest_${randomId}`;
+
+  currentUser = {
+    uid: uid,
+    displayName: displayName,
+    grade: '체험',
+    classNum: '게스트',
+    studentNum: '0',
+    name: displayName,
+    pass: 'guest',
+    bestScore: 0,
+    totalClears: 0
+  };
+
+  localStorage.setItem('spelmaker-player', JSON.stringify(currentUser));
+  enterLobby();
+}
+
+// 로그아웃
+function handleLogout() {
+  localStorage.removeItem('spelmaker-player');
+  currentUser = null;
+  switchScreen(loginScreen);
+}
+
+// 로비 진입 및 프로필 & 히스토리 렌더링
+function enterLobby() {
+  if (!currentUser) return;
+
+  topUserNameEl.textContent = currentUser.displayName;
+  welcomeUserNameEl.textContent = currentUser.name;
+  userAvatarCharEl.textContent = currentUser.name[0] || '용';
+
+  userBestScoreEl.textContent = `${currentUser.bestScore || 0}점`;
+  userQuizClearsEl.textContent = `${currentUser.totalClears || 0}회`;
+
+  renderMyHistory();
+  switchScreen(lobbyScreen);
+}
+
+// 무작위 셔플 (Fisher-Yates)
 function shuffleArray(array) {
   const arr = [...array];
   for (let i = arr.length - 1; i > 0; i--) {
@@ -905,51 +1011,22 @@ function shuffleArray(array) {
   return arr;
 }
 
-// 퀴즈 시작 (학생 인적사항 유효성 검사)
-function handleStartQuiz() {
-  const gradeVal = document.getElementById('student-grade').value.trim();
-  const classVal = document.getElementById('student-class').value.trim();
-  const numVal = document.getElementById('student-num').value.trim();
-  const nameVal = document.getElementById('student-name').value.trim();
+// 퀴즈 세션 시작
+function startQuizSession() {
+  if (!currentUser) return;
 
-  if (!gradeVal || !classVal || !numVal || !nameVal) {
-    alert('⚠️ 학년, 반, 번호, 이름을 모두 선택/입력해 주세요!');
-    return;
-  }
-
-  studentProfile = {
-    grade: gradeVal,
-    classNum: classVal,
-    studentNum: numVal,
-    name: nameVal
-  };
-
-  // 100개 문제 중 무작위 10개 추출
-  const shuffledBank = shuffleArray(questionBank);
-  activeQuizQuestions = shuffledBank.slice(0, 10);
-
+  const shuffled = shuffleArray(questionBank);
+  activeQuizQuestions = shuffled.slice(0, 10);
   currentQuestionIndex = 0;
   userAnswers = new Array(10).fill(null);
 
-  // 학년/반/번호/이름 헤더 표시 (예: 6학년 가람반 15번 홍길동)
-  quizStudentBadge.textContent = `👤 ${studentProfile.grade}학년 ${studentProfile.classNum}반 ${studentProfile.studentNum}번 ${studentProfile.name}`;
+  quizStudentBadge.textContent = `👤 ${currentUser.displayName}`;
 
   switchScreen(quizScreen);
   renderQuestion();
 }
 
-// 화면 전환
-function switchScreen(targetScreen) {
-  [startScreen, quizScreen, resultScreen].forEach(screen => {
-    screen.classList.remove('active');
-    screen.classList.add('hidden');
-  });
-
-  targetScreen.classList.remove('hidden');
-  targetScreen.classList.add('active');
-}
-
-// 문제 렌더링
+// 현재 문제 렌더링
 function renderQuestion() {
   const qData = activeQuizQuestions[currentQuestionIndex];
 
@@ -990,12 +1067,12 @@ function renderQuestion() {
   }
 }
 
-function selectOption(optionIndex) {
-  userAnswers[currentQuestionIndex] = optionIndex;
+function selectOption(index) {
+  userAnswers[currentQuestionIndex] = index;
 
   const optBtns = optionsContainer.querySelectorAll('.option-btn');
   optBtns.forEach((btn, idx) => {
-    if (idx === optionIndex) {
+    if (idx === index) {
       btn.classList.add('selected');
     } else {
       btn.classList.remove('selected');
@@ -1023,7 +1100,7 @@ function goToNextQuestion() {
   }
 }
 
-// 퀴즈 제출 및 100점 만점 채점
+// 퀴즈 제출 및 DB 기록 저장
 function submitQuiz() {
   let correctCount = 0;
   activeQuizQuestions.forEach((q, idx) => {
@@ -1034,9 +1111,12 @@ function submitQuiz() {
 
   const finalScore = correctCount * 10;
 
+  // DB에 응시 기록 저장
+  saveQuizRecordToDB(finalScore, correctCount);
+
   switchScreen(resultScreen);
 
-  resultStudentInfoEl.textContent = `🎓 ${studentProfile.grade}학년 ${studentProfile.classNum}반 ${studentProfile.studentNum}번 ${studentProfile.name} 학생의 맞춤법 성적표`;
+  resultStudentInfoEl.textContent = `🎓 ${currentUser.displayName} 학생의 맞춤법 성적표`;
   scoreSummaryTextEl.textContent = `총 10문제 중 ${correctCount}문제 정답!`;
 
   if (finalScore === 100) {
@@ -1057,6 +1137,114 @@ function submitQuiz() {
 
   animateScore(finalScore);
   renderReviewList();
+}
+
+// 데이터베이스에 기록 저장 함수 (DB Records)
+function saveQuizRecordToDB(score, correctCount) {
+  if (!currentUser) return;
+
+  const now = new Date();
+  const timeString = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}-${String(now.getDate()).padStart(2, '0')} ${String(now.getHours()).padStart(2, '0')}:${String(now.getMinutes()).padStart(2, '0')}`;
+
+  const recordObj = {
+    id: `REC_${Date.now()}`,
+    uid: currentUser.uid,
+    displayName: currentUser.displayName,
+    score: score,
+    correctCount: correctCount,
+    totalCount: 10,
+    date: timeString
+  };
+
+  // DB에 응시 기록 추가
+  let recordsDB = JSON.parse(localStorage.getItem('spelmaker-quiz-records') || '[]');
+  recordsDB.unshift(recordObj);
+  localStorage.setItem('spelmaker-quiz-records', JSON.stringify(recordsDB));
+
+  // 유저 개인 통계 업데이트
+  currentUser.totalClears = (currentUser.totalClears || 0) + 1;
+  if (score > (currentUser.bestScore || 0)) {
+    currentUser.bestScore = score;
+  }
+
+  localStorage.setItem('spelmaker-player', JSON.stringify(currentUser));
+
+  // 전체 유저 DB 갱신
+  let usersDB = JSON.parse(localStorage.getItem('spelmaker-users-db') || '{}');
+  if (usersDB[currentUser.uid]) {
+    usersDB[currentUser.uid].bestScore = currentUser.bestScore;
+    usersDB[currentUser.uid].totalClears = currentUser.totalClears;
+    localStorage.setItem('spelmaker-users-db', JSON.stringify(usersDB));
+  }
+}
+
+// 내 이전 기록 렌더링
+function renderMyHistory() {
+  if (!currentUser) return;
+
+  let recordsDB = JSON.parse(localStorage.getItem('spelmaker-quiz-records') || '[]');
+  const myRecords = recordsDB.filter(r => r.uid === currentUser.uid);
+
+  myHistoryList.innerHTML = '';
+
+  if (myRecords.length === 0) {
+    myHistoryList.innerHTML = '<div class="history-item"><span class="history-date">아직 응시한 기록이 없습니다. 첫 퀴즈에 도전해보세요!</span></div>';
+    return;
+  }
+
+  myRecords.slice(0, 5).forEach(rec => {
+    const item = document.createElement('div');
+    item.className = 'history-item';
+    item.innerHTML = `
+      <span class="history-date">📅 ${rec.date}</span>
+      <span class="history-score">${rec.score}점 <small>(${rec.correctCount}/10)</small></span>
+    `;
+    myHistoryList.appendChild(item);
+  });
+}
+
+// 명예의 전당 랭킹 렌더링
+function renderHallOfFame() {
+  let usersDB = JSON.parse(localStorage.getItem('spelmaker-users-db') || '{}');
+  let usersList = Object.values(usersDB);
+
+  // 게스트 계정 포함 처리
+  if (currentUser && currentUser.uid.startsWith('guest_')) {
+    if (!usersList.find(u => u.uid === currentUser.uid)) {
+      usersList.push(currentUser);
+    }
+  }
+
+  // 최고 점수 및 클리어 횟수 기준 정렬
+  usersList.sort((a, b) => {
+    if (b.bestScore !== a.bestScore) {
+      return b.bestScore - a.bestScore;
+    }
+    return (b.totalClears || 0) - (a.totalClears || 0);
+  });
+
+  rankListContainer.innerHTML = '';
+
+  if (usersList.length === 0) {
+    rankListContainer.innerHTML = '<div class="rank-row"><span>등록된 랭커가 아직 없습니다.</span></div>';
+    return;
+  }
+
+  usersList.forEach((user, idx) => {
+    const row = document.createElement('div');
+    row.className = `rank-row rank-${idx + 1}`;
+    
+    const rankEmoji = idx === 0 ? '🥇' : idx === 1 ? '🥈' : idx === 2 ? '🥉' : `${idx + 1}`;
+    const isMe = currentUser && currentUser.uid === user.uid;
+
+    row.innerHTML = `
+      <span class="rank-num">${rankEmoji}</span>
+      <span class="rank-name">${user.displayName} ${isMe ? ' <small style="color:#6366f1;">(나)</small>' : ''}</span>
+      <span class="rank-score">${user.bestScore || 0}점 <small style="font-size:0.8rem; color:#64748b;">(${user.totalClears || 0}회 완료)</small></span>
+    `;
+
+    rankListContainer.appendChild(row);
+  });
 }
 
 function animateScore(targetScore) {
@@ -1112,18 +1300,6 @@ function renderReviewList() {
 
     reviewContainer.appendChild(card);
   });
-}
-
-// 재도전 (100개 중 다시 새로운 무작위 10문제 추출)
-function handleRestartQuiz() {
-  const shuffledBank = shuffleArray(questionBank);
-  activeQuizQuestions = shuffledBank.slice(0, 10);
-
-  currentQuestionIndex = 0;
-  userAnswers = new Array(10).fill(null);
-
-  switchScreen(quizScreen);
-  renderQuestion();
 }
 
 // 폭죽 애니메이션
